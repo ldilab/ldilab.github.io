@@ -24,4 +24,16 @@
     toggleBtn.addEventListener('click', () => {
         navLinksContainer.classList.toggle('show-nav');
     });
+
+    function switchColorTheme() {
+        var currentTheme = document.documentElement.getAttribute("data-theme");
+        var switchBtn = document.querySelector('.language-switch');
+        if (currentTheme == "dark") {
+            document.documentElement.setAttribute("data-theme", "light");
+            localStorage.setItem("theme", "light");
+        } else {
+            document.documentElement.setAttribute("data-theme", "dark");
+            localStorage.setItem("theme", "dark");
+        }
+    }
 </script>

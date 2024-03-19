@@ -1,7 +1,48 @@
+/* Light & Dark Theme */
+:root {
+    --bg-color: #ffffff;
+    --text-color: #3C3C3C;
+    --text-lighter-color: #7b7b7b;
+    --text-darker-color: #000000;
+    --link-color: #000000;
+    --link-hover-color: #303030;
+    --footer-bg-color: #f5f5f5;
+    --scroll-bg-color: #cbcbcb;
+    --scroll-thumb-color: #909090;
+    --scroll-border-color: #b7b7b7;
+    --back-green: #e9f3ed;
+    --back-blue: #e9f1f3;
+    --back-red: #fff0ee;
+    --back-orange: #ffeddf;
+    --snu-logo-color: contrast(100%);
+    --ldi-logo-color: contrast(100%);
+}
+
+/* Dark mode */
+[data-theme="dark"] {
+    --bg-color: #1e1e1e;
+    --text-color: #e0e0e0;
+    --text-lighter-color: #7b7b7b;
+    --text-darker-color: #ffffff;
+    --link-color: #ffffff;
+    --link-hover-color: #f0f0f0;
+    --footer-bg-color: #2a2a2a;
+    --scroll-bg-color: #3a3a3a;
+    --scroll-thumb-color: #606060;
+    --scroll-border-color: #2a2a2a;
+    --back-green: #2e3e2e;
+    --back-blue: #2e3e3e;
+    --back-red: #3e2e2e;
+    --back-orange: #3e3e2e;
+    --snu-logo-color: invert(100%) sepia(0%) saturate(7492%) hue-rotate(189deg) brightness(100%) contrast(101%);
+    --ldi-logo-color: invert(100%) sepia(0%) saturate(7492%) hue-rotate(189deg) brightness(100%) contrast(101%);
+}
+
 body {
     font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size: 15px;
-    color: #3C3C3C;
+    color: var(--text-color);
+    background-color: var(--bg-color);
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -23,7 +64,7 @@ body {
     font-size: 28px;
     font-weight: 900;
     margin-bottom: 25px;
-    color: #000000;
+    color: var(--text-darker-color);
     text-align: center;
 }
 
@@ -44,6 +85,7 @@ nav {
 
 .logo img {
     height: 50px;
+    filter: var(--ldi-logo-color);
 }
 
 .nav-links-container {
@@ -64,7 +106,7 @@ nav {
 
 .nav-links li a {
     text-decoration: none;
-    color: #3C3C3C;
+    color: var(--link-color);
 }
 
 .nav-links li a:hover {
@@ -73,22 +115,26 @@ nav {
 
 .nav-links li .active {
     text-decoration: none;
-    color: #303030;
+    color: var(--link-hover-color);
     font-weight: 600;
 }
 
-.nav-links li .language-switch {
+.nav-links li .theme-switch {
     display: none;
 }
 
-.language-switch svg {
+.theme-switch svg {
     width: 24px;
     height: 24px;
-    fill: #000000;
+    fill: var(--text-darker-color);
 }
 
-.language-switch-right svg {
+.theme-switch-right svg {
     display: block;
+}
+
+.theme-switch-right svg:hover {
+    cursor: pointer;
 }
 
 .toggle-btn {
@@ -102,18 +148,18 @@ nav {
 .toggle-btn span {
     width: 18px;
     height: 2px;
-    background-color: #3C3C3C;
+    background-color: var(--text-color);
 }
 
 /* Hero */
 
 .hero {
-    background-color: #ffffff;
+    background-color: var(--bg-color);
     padding-top: 80px;
     padding-bottom: 30px;
     align-items: center;
     text-align: center;
-    color: #000000;
+    color: var(--text-darker-color);
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -140,25 +186,25 @@ nav {
 .hero .explore-btn {
     display: inline-block;
     padding: 12px 30px;
-    background-color: #000000;
-    color: #ffffff;
+    background-color: var(--text-darker-color);
+    color: var(--bg-color);
     text-decoration: none;
     font-size: 15px;
     font-weight: 600;
     border-radius: 5px;
-    outline: 2px solid #000000;
+    outline: 2px solid var(--text-darker-color);
     transition: background-color 0.3s, color 0.3s;
 }
 
 .hero .explore-btn:hover {
     background-color: transparent;
-    color: #000000;
+    color: var(--text-darker-color);
 }
 
 /* Footer */
 
 footer {
-    background-color: #f5f5f5;
+    background-color: var(--footer-bg-color);
     padding-top: 30px;
     padding-bottom: 80px;
 }
@@ -181,6 +227,7 @@ footer {
 .footer-logos img {
     height: 110px;
     margin-right: 25px;
+    filter: var(--snu-logo-color);
 }
 
 .footer-info {
@@ -193,7 +240,7 @@ footer {
 }
 
 .footer-info a {
-    color: #3C3C3C;
+    color: var(--text-color);
     text-decoration: none;
 }
 
@@ -202,7 +249,7 @@ footer {
 }
 
 .footer-info .copyrights {
-    color: #7b7b7b;
+    color: var(--text-lighter-color);
 }
 
 /* Research */
@@ -211,7 +258,7 @@ footer {
     font-size: 28px;
     font-weight: 900;
     margin-bottom: 20px;
-    color: #000000;
+    color: var(--text-darker-color);
 }
 
 .description {
@@ -235,19 +282,19 @@ footer {
 }
 
 .blue {
-    background-color: #e9f1f3;
+    background-color: var(--back-blue);
 }
 
 .green {
-    background-color: #e9f3ed;
+    background-color: var(--back-green);
 }
 
 .red {
-    background-color: #fff0ee;
+    background-color: var(--back-red);
 }
 
 .orange {
-    background-color: #ffeddf;
+    background-color: var(--back-orange);
 }
 
 .topic-icon {
@@ -265,7 +312,7 @@ footer {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #000000;
+    color: var(--text-darker-color);
 }
 
 .topic-description {
@@ -290,7 +337,7 @@ footer {
     font-size: 24px;
     font-weight: 900;
     margin-bottom: 10px;
-    color: #000000;
+    color: var(--text-darker-color);
 }
 
 .publications-list {
@@ -312,7 +359,7 @@ footer {
     font-weight: 600;
     margin-bottom: 5px;
     text-decoration: none;
-    color: #3C3C3C;
+    color: var(--text-color);
 }
 
 .publication-authors {
@@ -333,7 +380,7 @@ footer {
     font-size: 24px;
     font-weight: 900;
     margin-bottom: 25px;
-    color: #000000;
+    color: var(--text-darker-color);
 }
 
 .people-list {
@@ -378,7 +425,7 @@ footer {
 .person-mail {
     display: block;
     margin-bottom: 10px;
-    color: #3C3C3C;
+    color: var(--text-color);
     text-decoration: none;
     font-style: italic;
 }
@@ -386,7 +433,7 @@ footer {
 .person-moreinfo {
     position: absolute;
     font-size: 14px;
-    color: #3C3C3C;
+    color: var(--text-color);
     text-decoration: none;
     font-variant: small-caps;
     font-weight: 900px;
@@ -409,7 +456,7 @@ footer {
     font-size: 16px;
     font-weight: 600;
     margin-bottom: 10px;
-    color: #3C3C3C;
+    color: var(--text-color);
     text-decoration: none;
     width: 100%;
 }
@@ -474,14 +521,9 @@ footer {
 }
 
 .return-people {
-    color: #000000;
-    fill: #000000;
+    color: var(--text-darker-color);
+    fill: var(--text-darker-color);
     text-decoration: none;
-}
-
-.special-link {
-    text-decoration: underline;
-    color: #3C3C3C;
 }
 
 /* Middle */
@@ -496,6 +538,7 @@ footer {
 .middle-logo img {
     height: 15vh;
     max-height: 300px;
+    filter: var(--snu-logo-color);
 }
 
 /* Scrollbar styles */
@@ -505,18 +548,18 @@ footer {
 }
 
 ::-webkit-scrollbar-track-piece {
-    background-color: #FFF;
+    background-color: var(--bg-color)
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #CBCBCB;
-    outline: 2px solid #f5f5f5;
+    background-color: var(--scroll-bg-color);
+    outline: 2px solid var(--footer-bg-color);
     outline-offset: -2px;
-    border: .1px solid #B7B7B7;
+    border: .1px solid var(--scroll-border-color)
 }
 
 ::-webkit-scrollbar-thumb:hover {
-    background-color: #909090;
+    background-color: var(--scroll-thumb-color)
 }
 
 @media (max-width: 768px) {
@@ -532,7 +575,7 @@ footer {
         position: absolute;
         left: 0;
         top: 110px;
-        background-color: #ffffff;
+        background-color: var(--bg-color);
         padding: 15px;
         width: 95.5%;
         box-shadow: 0 4px 5px rgba(0, 0, 0, 0.1);
@@ -549,7 +592,7 @@ footer {
         margin-bottom: 18px;
     }
 
-    .nav-links li .language-switch {
+    .nav-links li .theme-switch {
         display: block;
     }
 
@@ -557,7 +600,7 @@ footer {
         display: flex;
     }
 
-    .language-switch-right svg {
+    .theme-switch-right svg {
         display: none;
     }
 
