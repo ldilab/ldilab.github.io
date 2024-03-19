@@ -26,6 +26,7 @@ They are organized as follow:
     - title: Title of paper 1
       authors: Author 1, Author 2
       venue: Venue Year
+      url: [Optional] <URL to the paper>
     - title: Title of paper 2
       authors: Author 3
       venue: Venue 2 Year
@@ -51,8 +52,10 @@ education:
  - Please always use <Type (M.S. | Ph.D. | B.S.)> in <Field>, <University> <Year> format. From most recent to oldest.
 mail: <your mail>
 website: [Optional] <your website>
+office: <your office>
 photo: <file name with extension under _assets/images/people>
 ---
+[Optional] Biography or whatever you want in the markdown format
 ```
 
 Don't forget to add the photo under `_assets/images/people/`.
