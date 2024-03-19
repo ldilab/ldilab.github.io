@@ -1,0 +1,29 @@
+---
+layout: default
+title: "Publications"
+permalink: /publications
+sitemap: true
+---
+<div class="container">
+    <h1 class="category">Publications</h1>
+    <div class="publications">
+        {% for publications-year in site.data.publications %}
+        <div class="publications-content">
+            <div class="publications-year">{{ publications-year.year }}</div>
+            <div class="publications-list">
+                {% for publication in publications-year.papers %}
+                <div class="publication">
+                    {% if publication.url %}
+                    <a href="{{ publication.url }}" class="publication-title">{{ publication.title }}</a>
+                    {% else %}
+                    <div class="publication-title">{{ publication.title }}</div>
+                    {% endif %}
+                    <div class="publication-authors">{{ publication.authors }}</div>
+                    <div class="publication-venue">{{ publication.venue }}</div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>

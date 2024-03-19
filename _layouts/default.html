@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ site.title }}</title>
+  <link rel="icon" src="{{ site.url }}{{ site.baseurl }}/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css">
+  {% seo title=false %}
+</head>
+
+<body onload="document.body.style.opacity='1'">
+  {% include header.html %}
+
+  <div class="content">
+    {{ content }}
+  </div>
+
+  {% include footer.html %}
+</body>
+
+</html>

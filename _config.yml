@@ -1,0 +1,24 @@
+url: "https://rstr.fr"
+baseurl: "/ldi"
+title: "LDILab - SNU"
+tagline: "Language Data Intelligence Laboratory"
+description: "Language Data Intelligence Laboratory at Seoul National University"
+logo: "/assets/images/ldi-logo.svg"
+exclude: ['README.md', 'Gemfile.lock', 'Gemfile']
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+collections:
+  people:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "people"
+    values:
+      layout: "person"
+      permalink: /person/:path/
+      sitemap: false

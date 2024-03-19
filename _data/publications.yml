@@ -1,0 +1,25 @@
+- year: 2024
+  papers:
+  - title: "HIL: Hybrid Isotropy Learning for Zero-shot Performance in Dense retrieval"
+    authors: "Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang"
+    venue: "NAACL 2024"
+  - title: "Script-mix: Mixing Scripts for Low-resource Language Parsing"
+    authors: "Jaeseong Lee, Dohyeon Lee, Seung-won Hwang"
+    venue: "NAACL 2024"
+  - title: "COMMIT: Code-Mixing English-Centric Large Language Model for Multilingual Instruction Tuning"
+    authors: "Jaeseong Lee, YeonJoon Jung, Seung-won Hwang"
+    venue: "Findings of NAACL 2024 (short)"
+  - title: "ContrastiveMix: Overcoming Code-Mixing Dilemma in Cross-Lingual Transfer for Information Retrieval"
+    authors: "Junggeun Do, Jaeseong Lee, Seung-won Hwang"
+    venue: "NAACL 2024 (short)"
+  - title: "Chaining Event Spans for Temporal Relation Grounding"
+    authors: "Jongho Kim, Dohyeon Lee, Minsoo Kim, Seung-won Hwang"
+    venue: "EACL 2024"
+- year: 2023
+  papers:
+  - title: "Learning to Rank Generation with Pairwise Partial Rewards"
+    authors: "{Youngwon Lee, Jinu Lee}, Seung-won Hwang"
+    venue: "EMNLP 2023"
+  - title: "On Sample-Efficient Code Generation"
+    authors: "Hojae Han, Yu Jin Kim, Byoungjip Kim, Youngwon Lee, Kyungjae Lee, Kyungmin Lee, Moontae Lee, Kyunghoon Bae, Seung-won Hwang"
+    venue: "EMNLP 2023 (Industry Track)"

@@ -1,0 +1,49 @@
+---
+layout: default
+title: "People"
+permalink: /people
+sitemap: true
+---
+<div class="container">
+    <h1 class="category">LDILab's Family</h1>
+    <div class="people">
+        {% for category in site.data.people %}
+        <div class="people-content">
+            <div class="people-category">{{ category.category }}</div>
+            <div class="people-list">
+                {% assign people = site.people | where: 'position', category.name %}
+                {% for member in people %}
+                <div class="person">
+                    <div class="person-image-container">
+                        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/people/{{ member.photo }}"
+                            alt="{{ member.name }}">
+                    </div>
+                    <div class="person-info-container">
+                        <div class="person-name">{{ member.name }} ({{ member.korean_name }})</div>
+                        <a class="person-mail" href="mailto:mail@mail.com">{{ member.mail }}</a>
+                        <ul class="person-interests">
+                            {% for interest in member.interests %}
+                            <li>{{ interest }}</li>
+                            {% endfor %}
+                        </ul>
+                        <a class="person-moreinfo" href="{{ site.url }}{{ site.baseurl }}{{ member.url }}">More Information</a>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+        {% endfor %}
+
+        <div class="people-content">
+            <div class="people-category">Alumnis</div>
+            <div class="people-list">
+                {% assign alumnis = site.members | where: 'position', 'Alumni' %}
+                {% for alumni in alumnis %}
+                <a class="alumni" href="{{ alumni.website | default: "#" }}"> {{ alumni.name }} ({{ alumni.korean_name
+                    }})</a>
+                {% endfor %}
+            </div>
+        </div>
+
+    </div>
+</div>

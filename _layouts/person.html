@@ -1,0 +1,52 @@
+---
+layout: default
+sitemap: false
+---
+<div class="container">
+    <a href="{{ site.url }}{{ site.baseurl }}/people"><svg alt="Return to People" class="return-people"
+            xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+                d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5" />
+        </svg></a>
+</div>
+<div class="container person-presentation">
+    <div class="photo">
+        <img src="{{ site.url }}{{ site.baseurl }}/assets/images/people/{{ page.photo }}" alt="{{ page.name }}">
+    </div>
+    <div class="person-description">
+        <h1 class="name">{{ page.name }} ({{ page.korean_name }})</h1>
+        <div class="main-info">
+            <p>{{ page.position }}</p>
+            <p>{{ page.department }}</p>
+        </div>
+        <div class="other-info">
+            <h2 class="other-category">Research Interests</h2>
+            <ul class="category-interests">
+                {% for interest in page.interests %}
+                <li>{{ interest }}</li>
+                {% endfor %}
+            </ul>
+
+        </div>
+
+        <div class="other-info">
+            <h2 class="other-category">Education</h2>
+            <ul>
+                {% for education in page.education %}
+                <li>{{ education }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+
+        <div class="other-info">
+            <h2 class="other-category">Contact</h2>
+            {% if page.office %}
+            <p>Office: {{ page.office }}</p>
+            {% endif %}
+            <p>Email: <a class="special-link" href="mailto:{{ page.mail }}">{{ page.mail }}</a></p>
+            {% if page.website %}
+            <p>Website: <a class="special-link" href="mailto:{{ page.website }}">{{ page.website }}</a></p>
+            {% endif %}
+        </div>
+    </div>
+</div>
