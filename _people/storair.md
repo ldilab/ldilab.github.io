@@ -9,15 +9,8 @@ interests:
  - "Information Retrieval"
 education:
  - "M.S. in Computer Science and Engineering, Seoul National University 2023~"
- - "M.Eng. in Computer Science, IMT Mines Alès (France) 2023"
+ - "M.Eng. in Computer Science (Dual Degree), IMT Mines Alès (France) 2023~"
 mail: romsto@snu.ac.kr
 website: "https://rstr.fr/"
 photo: storair.jpg
 ---
-# Biogaphy
-This is a test
-- fsfsg
-- vfb
-
-### Yoooo
-f

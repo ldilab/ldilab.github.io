@@ -1,8 +1,8 @@
 # Language and Data Intelligence Laboratory Website
 
-The Language and Data Intelligence Laboratory (LDI) website is built using [Jekyll](https://jekyllrb.com/), a static site generator. This allows us to easily create and maintain a dynamic website with minimal effort.
+The Language and Data Intelligence Laboratory (LDI) website is built using [Jekyll](https://jekyllrb.com/), a static site generator. This allows us to easily create and maintain a dynamic website with minimal effort. Moreover, Github Pages natively supports Jekyll, making it easy to deploy the website just by commiting the current folder.
 
-## Build and Deploy
+## Build and Deploy Locally
 
 In order to build the website, you will need to have [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) installed.
 

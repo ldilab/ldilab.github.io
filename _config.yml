@@ -1,5 +1,5 @@
-url: "https://rstr.fr"
-baseurl: "/ldi"
+url: "ldilab.github.io"
+baseurl: "/"
 title: "LDILab - SNU"
 tagline: "Language Data Intelligence Laboratory"
 description: "Language Data Intelligence Laboratory at Seoul National University"
