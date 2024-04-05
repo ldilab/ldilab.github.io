@@ -4,6 +4,8 @@ The Language and Data Intelligence Laboratory (LDI) website is built using [Jeky
 
 ## Build and Deploy Locally
 
+*This section concerns the local development of the website. If you want to deploy the website to Github Pages, no actions are needed except pushing the changes to the `main` branch.*
+
 In order to build the website, you will need to have [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) installed.
 
 Execute the following commands to build the website:
