@@ -62,7 +62,16 @@ photo: <file name with extension under _assets/images/people>
 
 Don't forget to add the photo under `_assets/images/people/`.
 
-To add alumnis, please head to `_data/alumni.yml` and follow the same format as for the publications.
+To add alumnis, please head to `_data/alumnis.yml` and follow the same format as for the publications:
+```yaml
+- type: <Ph.D. or M.S.>
+  alumnis:
+    - name: FirstName FamilyName
+      year: 20..
+      website: [Optional] <URL to personal webpage>
+    - name: FirstName2 FamilyName2
+      year: 20..
+```
 
 ## Website Info
 

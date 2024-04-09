@@ -40,7 +40,7 @@ sitemap: true
         <div class="people-content">
             <div class="people-category-alumni">Alumnis ({{ alumnis-type.type }})</div>
             <div class="people-list">
-                {% for alumni in alumnis-type.people %}
+                {% for alumni in alumnis-type.alumnis %}
                     {% if alumni.website %}
                     <a class="alumni" href="{{ alumni.website }}"> {{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</a>
                     {% else %}
