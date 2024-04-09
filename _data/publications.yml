@@ -1,25 +1,157 @@
 - year: 2024
   papers:
-  - title: "HIL: Hybrid Isotropy Learning for Zero-shot Performance in Dense retrieval"
-    authors: "Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang"
-    venue: "NAACL 2024"
-  - title: "Script-mix: Mixing Scripts for Low-resource Language Parsing"
-    authors: "Jaeseong Lee, Dohyeon Lee, Seung-won Hwang"
-    venue: "NAACL 2024"
-  - title: "COMMIT: Code-Mixing English-Centric Large Language Model for Multilingual Instruction Tuning"
-    authors: "Jaeseong Lee, YeonJoon Jung, Seung-won Hwang"
-    venue: "Findings of NAACL 2024 (short)"
-  - title: "ContrastiveMix: Overcoming Code-Mixing Dilemma in Cross-Lingual Transfer for Information Retrieval"
-    authors: "Junggeun Do, Jaeseong Lee, Seung-won Hwang"
-    venue: "NAACL 2024 (short)"
-  - title: "Chaining Event Spans for Temporal Relation Grounding"
-    authors: "Jongho Kim, Dohyeon Lee, Minsoo Kim, Seung-won Hwang"
-    venue: "EACL 2024"
+  - title: 'HIL: Hybrid Isotropy Learning for Zero-shot Performance in Dense retrieval'
+    authors: Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang
+    venue: NAACL 2024
+  - title: 'Script-mix: Mixing Scripts for Low-resource Language Parsing'
+    authors: Jaeseong Lee, Dohyeon Lee, Seung-won Hwang
+    venue: NAACL 2024
+  - title: 'COMMIT: Code-Mixing English-Centric Large Language Model for Multilingual
+      Instruction Tuning'
+    authors: Jaeseong Lee, YeonJoon Jung, Seung-won Hwang
+    venue: Findings of NAACL 2024 (short)
+  - title: 'ContrastiveMix: Overcoming Code-Mixing Dilemma in Cross-Lingual Transfer
+      for Information Retrieval'
+    authors: Junggeun Do, Jaeseong Lee, Seung-won Hwang
+    venue: NAACL 2024 (short)
+  - title: Chaining Event Spans for Temporal Relation Grounding
+    authors: Jongho Kim, Dohyeon Lee, Minsoo Kim, Seung-won Hwang
+    venue: EACL 2024
+    link: https://aclanthology.org/2024.eacl-long.101.pdf
 - year: 2023
   papers:
-  - title: "Learning to Rank Generation with Pairwise Partial Rewards"
-    authors: "{Youngwon Lee, Jinu Lee}, Seung-won Hwang"
-    venue: "EMNLP 2023"
-  - title: "On Sample-Efficient Code Generation"
-    authors: "Hojae Han, Yu Jin Kim, Byoungjip Kim, Youngwon Lee, Kyungjae Lee, Kyungmin Lee, Moontae Lee, Kyunghoon Bae, Seung-won Hwang"
-    venue: "EMNLP 2023 (Industry Track)"
+  - title: Learning to Rank Generation with Pairwise Partial Rewards
+    authors: '{Youngwon Lee, Jinu Lee}, Seung-won Hwang'
+    venue: EMNLP 2023
+    link: https://aclanthology.org/2023.emnlp-main.371.pdf
+  - title: On Sample-Efficient Code Generation
+    authors: Hojae Han, Yu Jin Kim, Byoungjip Kim, Youngwon Lee, Kyungjae Lee, Kyungmin
+      Lee, Moontae Lee, Kyunghoon Bae, Seung-won Hwang
+    venue: EMNLP 2023 (Industry Track)
+    link: https://aclanthology.org/2023.emnlp-industry.73.pdf
+  - title: Relevance-assisted Generation for Robust Zero-shot Retrieval
+    authors: Jihyuk Kim, Minsoo Kim, Joonsuk Park, Seung-won Hwang
+    venue: EMNLP 2023 (Industry Track)
+    link: https://aclanthology.org/2023.emnlp-industry.67.pdf
+  - title: Multilingual Lottery Tickets to Pretrain Language Models
+    authors: Jaeseong Lee, Seung-won Hwang
+    venue: Findings of EMNLP 2023
+    link: https://aclanthology.org/2023.findings-emnlp.629.pdf
+  - title: Intervention-Based Alignment of Code Search with Execution Feedback
+    authors: Hojae Han, Minsoo Kim, Seung-won Hwang, Nan Duan, Shuai Lu
+    venue: Findings of EMNLP 2023
+    link: https://aclanthology.org/2023.findings-emnlp.148.pdf
+  - title: On Monotonic Aggregation for Open-domain QA
+    authors: '{Sang-eun Han, Yeonseok Jeong}, Seung-won Hwang, Kyungjae Lee'
+    venue: INTERSPEECH 2023
+    link: https://arxiv.org/pdf/2308.04176
+  - title: On Complementarity Objectives for Hybrid Retrieval
+    authors: Dohyeon Lee, Seung-won Hwang, Kyungjae Lee, Seungtaek Choi, Sunghyun
+      Park
+    venue: ACL 2023
+    link: https://aclanthology.org/2023.acl-long.746.pdf
+  - title: Retrieval-augmented Video Encoding for Instructional Captioning
+    authors: Yeonjoon Jung, Minsoo Kim, Seungtaek Choi, Jihyuk Kim, Minji Seo, Seung-won
+      Hwang
+    venue: Findings of ACL 2023
+    link: https://aclanthology.org/2023.findings-acl.543.pdf
+  - title: 'When to Read Documents or QA History: On Unified, Selective Open-domain
+      QA'
+    authors: '{Kyungjae Lee, Sang-eun Han}, Seung-won Hwang, Moontae Lee'
+    venue: Findings of ACL 2023
+    link: https://aclanthology.org/2023.findings-acl.401.pdf
+  - title: 'C2LIR: Continual Cross-lingual Transfer for Low-Resource Information Retrieval'
+    authors: '{Jaeseong Lee, Dohyeon Lee}, Jongho Kim, Seung-won Hwang'
+    venue: ECIR 2023 (short)
+    link: https://dl.acm.org/doi/abs/10.1007/978-3-031-28238-6_37
+  - title: 'Script, Language, Labels: Overcoming Three Discrepancies for Low-Resource
+      Language Specialization'
+    authors: Jaeseong Lee, Dohyeon Lee, Seung-won Hwang
+    venue: AAAI 2023
+    link: https://ojs.aaai.org/index.php/AAAI/article/view/26528/26300
+- year: 2022
+  papers:
+  - title: PLM-based World Models for Text-based Games
+    authors: Minsoo Kim, Yeonjoon Jung, Dohyeon Lee, Seung-won Hwang
+    venue: EMNLP 2022
+    link: https://aclanthology.org/2022.emnlp-main.86.pdf
+  - title: Towards Compositional Generalization in Code Search
+    authors: Hojae Han, Seung-won Hwang, Shuai Lu, Nan Duan, Seungtaek Choi
+    venue: EMNLP 2022 (short)
+    link: https://aclanthology.org/2022.emnlp-main.737.pdf
+  - title: Pseudo-Relevance for Enhancing Document Representation
+    authors: Jihyuk Kim, Seung-won Hwang, Seoho Song, Hyeseon Ko, Young-In Song
+    venue: EMNLP 2022
+    link: https://aclanthology.org/2022.emnlp-main.800.pdf
+  - title: Normalizing Mutual Information for Robust Adaptive Training for Translation
+    authors: Youngwon Lee, Changmin Lee, Hojin Lee, Seung-won Hwang
+    venue: EMNLP 2022 (short)
+    link: https://aclanthology.org/2022.emnlp-main.547.pdf
+  - title: 'FAD-X: Fusing Adapters for Cross-lingual Transfer to Low-Resource Languages'
+    authors: Jaeseong Lee, Seung-won Hwang, Taesup Kim
+    venue: AACL/IJCNLP 2022 (short)
+    link: https://aclanthology.org/2022.aacl-short.8.pdf
+  - title: Collective Relevance Labeling for Passage Retrieval
+    authors: Jihyuk Kim, Minsoo Kim, Seung-won Hwang
+    venue: NAACL 2022 (short)
+    link: https://aclanthology.org/2022.naacl-main.305.pdf
+  - title: Privacy-Preserving Text Classification on BERT Embeddings with Homomorphic
+      Encryption
+    authors: '{Garam Lee, Minsoo Kim, Jai Hyun Park}, Seung-won Hwang, Jung Hee Cheon'
+    venue: NAACL 2022 (short)
+    link: https://aclanthology.org/2022.naacl-main.231.pdf
+  - title: 'ReACC: A Retrieval-Augmented Code Completion Framework'
+    authors: Shuai Lu, Nan Duan, Hojae Han, Daya Guo, Seung-won Hwang, Alexey Svyatkovskiy
+    venue: ACL 2022
+    link: https://arxiv.org/pdf/2203.07722.pdf
+  - title: Debiasing Event Understanding for Visual Commonsense Tasks
+    authors: '{Minji Seo, YeonJoon Jung}, Seungtaek Choi, Seung-won Hwang, Bei Liu'
+    venue: Findings of ACL 2022 (short)
+    link: https://aclanthology.org/2022.findings-acl.65.pdf
+  - title: Plug-and-Play Adaptation for Continuously-updated QA
+    authors: Kyungjae Lee, Wookje Han, Seung-Won Hwang, Hwaran Lee, Joonsuk Park,
+      Sang-Woo Lee
+    venue: Findings of ACL 2022
+    link: https://aclanthology.org/2022.findings-acl.37.pdf
+  - title: 'C2L: Causally Contrastive Learning for Robust Text Classification'
+    authors: '{Seungtaek Choi, Myeongho Jeong}, Hojae Han, Seung-won Hwang'
+    venue: AAAI 2022
+    link: https://www.aaai.org/AAAI22Papers/AAAI-11767.ChoiS.pdf
+- year: 2021
+  papers:
+  - title: Bridging Code-Text Representation Gap using Explanation
+    authors: Hojae Han, Youngwon Lee, Minsoo Kim, Seung-won Hwang
+    venue: ACML 2021
+    link: https://proceedings.mlr.press/v157/han21a.html
+  - title: Structure-Augmented Keyphrase Generation
+    authors: Jihyuk Kim, Myeongho Jeong, Seungtaek Choi, Seung-won Hwang
+    venue: EMNLP 2021
+    link: https://doi.org/10.18653/v1/2021.emnlp-main.209
+  - title: Robustifying Multi-hop QA through Pseudo-Evidentiality Training
+    authors: Kyungjae Lee, Seung-won Hwang, Sang-eun Han, Dohyeon Lee
+    venue: ACL/IJCNLP 2021
+    link: https://doi.org/10.18653/v1/2021.acl-long.476
+  - title: Web Document Encoding for Structure-Aware Keyphrase Extraction
+    authors: Jihyuk Kim, Young-In Song, Seung-won Hwang
+    venue: SIGIR 2021 (short)
+    link: https://doi.org/10.1145/3404835.3463067
+  - title: SCOPA - Soft Code-Switching, Pairwise Alignment for Zero-Shot Cross-lingual
+      Transfer
+    authors: '{Dohyeon Lee, Jaeseong Lee}, Gyewon Lee, Byung-Gon Chun, Seung-won
+      Hwang'
+    venue: CIKM 2021 (short)
+    link: https://doi.org/10.1145/3459637.3482176
+  - title: Counterfactual Generative Smoothing for Imbalanced Natural Language Classification
+    authors: Hojae Han, Seungtaek Choi, Myeongho Jeong, Jin-Woo Park, Seung-won
+      Hwang
+    venue: CIKM 2021 (short)
+    link: https://doi.org/10.1145/3459637.3482077
+  - title: Label, Context Augmentation for Response Selection at DSTC8
+    authors: '{Myeongho Jeong, Seungtaek Choi}, Jinyoung Yeo, Seung-won Hwang'
+    venue: IEEE Transactions on Audio, Speech,, Language Processing (TASLP), 2021
+    link: https://doi.org/10.1109/TASLP.2021.3076876
+  - title: Query Generation for Multimodal Documents
+    authors: Kyungho Kim, Kyungjae Lee, Seung-won Hwang, Young-In Song, Seungwook
+      Lee
+    venue: EACL 2021
+    link: https://doi.org/10.18653/v1/2021.eacl-main.54
