@@ -155,3 +155,56 @@
       Lee
     venue: EACL 2021
     link: https://doi.org/10.18653/v1/2021.eacl-main.54
+- year: 2020
+  papers:
+  - title: Retrieval-Augmented Controllable Review Generation
+    authors: Jihyeok Kim, Seungtaek Choi, Reinald Kim Amplayo, Seung-won Hwang
+    venue: COLING 2020
+    link: https://doi.org/10.18653/v1/2020.coling-main.207
+  - title: Less is More - Attention Supervision with Counterfactuals for Text Classification
+    authors: Seungtaek Choi, Haeju Park, Jinyoung Yeo, Seung-won Hwang
+    venue: EMNLP 2020
+    link: https://doi.org/10.18653/v1/2020.emnlp-main.543
+  - title: Conditional Response Augmentation for Dialogue Using Knowledge Distillation
+    authors: '{Myeongho Jeong, Seungtaek Choi}, Hojae Han, Kyungho Kim, Seung-won
+      Hwang'
+    venue: INTERSPEECH 2020
+    link: https://doi.org/10.21437/Interspeech.2020-1968
+  - title: Training Data Optimization for Pairwise Learning to Rank
+    authors: Hojae Han, Seung-won Hwang, Young-In Song, Siyeon Kim
+    venue: ICTIR 2020
+    link: https://doi.org/10.1145/3409256.3409824
+  - title: Instructional Video Summarization Using Attentive Knowledge Grounding
+    authors: '{Kyungho Kim, Kyungjae Lee}, Seung-won Hwang'
+    venue: ECML/PKDD 2020
+    link: https://doi.org/10.1007/978-3-030-67670-4_40
+  - title: Bert is Not All You Need for Commonsense Inference
+    authors: '{Sunghyun Park, Junsung Son}, Seung-won Hwang, KyungLang Park'
+    venue: ICASSP 2020
+    link: https://doi.org/10.1109/ICASSP40776.2020.9054147
+  - title: Segment-Then-Rank - Non-Factoid Question Answering on Instructional Videos
+    authors: Kyungjae Lee, Nan Duan, Lei Ji, Jason Li, Seung-won Hwang
+    venue: AAAI 2020
+    link: https://ojs.aaai.org/index.php/AAAI/article/view/6327
+  - title: Meta-supervision for Attention Using Counterfactual Estimation
+    authors: Seungtaek Choi, Haeju Park, Seung-won Hwang
+    venue: 'Data Sci. Eng. 5(2): 193-204 (2020)'
+    link: https://doi.org/10.1007/s41019-020-00119-z
+  - title: Conversion Prediction from Clickstream - Modeling Market Prediction, Customer
+      Predictability.
+    authors: Jinyoung Yeo, Seung-won Hwang, Sungchul Kim, Eunyee Koh, Nedim Lipka
+    venue: 'IEEE Trans. Knowl. Data Eng. 32(2): 246-259 (2020)'
+    link: https://doi.org/10.1109/TKDE.2018.2884467
+  - title: XINA - Explainable Instance Alignment Using Dominance Relationship
+    authors: Jinyoung Yeo, Haeju Park, Sanghoon Lee, Eric Wonhee Lee, Seung-won Hwang
+    venue: 'IEEE Trans. Knowl. Data Eng. 32(2): 388-401 (2020)'
+    link: https://doi.org/10.1109/TKDE.2018.2881956
+  - title: Label-Efficient Training for Next Response Selection
+    authors: '{Seungtaek Choi, Myeongho Jeong}, Jinyoung Yeo, Seung-won Hwang'
+    venue: EMNLP 2020 (workshop, SustaiNLP)
+    link: https://aclanthology.org/2020.sustainlp-1.22/
+  - title: SQuAD2-CR - Semi-supervised Annotation for Cause, Rationales for Unanswerability
+      in SQuAD 2.0
+    authors: Gyeongbok Lee, Seung-won Hwang, Hyunsouk Cho
+    venue: LREC 2020
+    link: https://aclanthology.org/2020.lrec-1.667/
