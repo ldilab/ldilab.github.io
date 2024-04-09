@@ -62,6 +62,8 @@ photo: <file name with extension under _assets/images/people>
 
 Don't forget to add the photo under `_assets/images/people/`.
 
+To add alumnis, please head to `_data/alumni.yml` and follow the same format as for the publications.
+
 ## Website Info
 
 The CSS isn't relying on any framework, it's all custom made.
