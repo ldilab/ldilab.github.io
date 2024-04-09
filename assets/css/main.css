@@ -384,6 +384,13 @@ footer {
     color: var(--text-darker-color);
 }
 
+.people-category-alumni {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+    color: var(--text-darker-color);
+}
+
 .people-list {
     display: flex;
     flex-wrap: wrap;
@@ -456,13 +463,13 @@ footer {
 .alumni {
     font-size: 16px;
     font-weight: 600;
-    margin-bottom: 10px;
     color: var(--text-color);
     text-decoration: none;
     width: 100%;
+    margin-bottom: 6px;
 }
 
-.alumni:hover {
+a.alumni:hover {
     text-decoration: underline;
 }
 

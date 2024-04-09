@@ -26,7 +26,8 @@ sitemap: true
                             <li>{{ interest }}</li>
                             {% endfor %}
                         </ul>
-                        <a class="person-moreinfo" href="{{ site.url }}{{ site.baseurl }}{{ member.url }}">More Information</a>
+                        <a class="person-moreinfo" href="{{ site.url }}{{ site.baseurl }}{{ member.url }}">More
+                            Information</a>
                     </div>
                 </div>
                 {% endfor %}
@@ -34,16 +35,21 @@ sitemap: true
         </div>
         {% endfor %}
 
+        
+        {% for alumnis-type in site.data.alumnis %}
         <div class="people-content">
-            <div class="people-category">Alumnis</div>
+            <div class="people-category-alumni">Alumnis ({{ alumnis-type.type }})</div>
             <div class="people-list">
-                {% assign alumnis = site.members | where: 'position', 'Alumni' %}
-                {% for alumni in alumnis %}
-                <a class="alumni" href="{{ alumni.website | default: "#" }}"> {{ alumni.name }} ({{ alumni.korean_name
-                    }})</a>
+                {% for alumni in alumnis-type.people %}
+                    {% if alumni.website %}
+                    <a class="alumni" href="{{ alumni.website }}"> {{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</a>
+                    {% else %}
+                    <div class="alumni">{{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</div>
+                    {% endif %}
                 {% endfor %}
             </div>
         </div>
+        {% endfor %}
 
     </div>
 </div>

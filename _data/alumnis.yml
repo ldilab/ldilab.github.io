@@ -1,0 +1,77 @@
+- type: Ph.D.
+  alumnis:
+    - name: Seungtaek Choi
+      year: 2022
+      website: https://hist0613.github.io/
+    - name: Kyungjae Lee
+      year: 2022
+      website: https://lkj0509.github.io/
+    - name: Sunghwan Kim
+      year: 2020
+    - name: Jinyoung Yeo
+      year: 2018
+      website: https://jinyeo.weebly.com/
+    - name: Hyunsouk Cho
+      year: 2018
+      website: https://sites.google.com/view/iknow-lab/
+    - name: Jinwoo Park
+      year: 2016
+    - name: Sanghoon Lee
+      year: 2016
+    - name: Taesung Lee
+      year: 2015
+      website: https://sites.google.com/site/cstaesung/home?authuser=0
+    - name: Jinhan Kim
+      year: 2014
+    - name: Gaewon You
+      year: 2012
+    - name: Gook-pil Roh
+      year: 2012
+    - name: Mu-woong Lee
+      year: 2012
+    - name: Jongwuk Lee
+      year: 2012
+      website: https://diallab.github.io/
+    - name: Jongwon Roh
+      year: 2012
+- type: M.S.
+  alumnis:
+    - name: Myeongho Jung
+      year: 2022
+    - name: Hoyoung Kim
+      year: 2022
+    - name: Seoho Song
+      year: 2022
+    - name: Haein Park
+      year: 2021
+    - name: Junsung Son
+      year: 2021
+    - name: YoungSeon Na
+      year: 2020
+    - name: Sunghyun Park
+      year: 2019
+    - name: Haeju Park
+      year: 2019
+    - name: Gyeongbok Lee
+      year: 2019
+      website: https://antest1.github.io/
+    - name: Minsuk Cho
+      year: 2019
+    - name: Sunjae Lim
+      year: 2019
+    - name: Eric Wonhee Lee
+      year: 2017
+    - name: YoungRok Cha
+      year: 2014
+    - name: Sunyou Lee
+      year: 2014
+    - name: Myungha Jang
+      year: 2012
+    - name: Sukhyun Ahn
+      year: 2011
+    - name: Chul-kyoon Kim
+      year: 2010
+    - name: Hyountaek Yong
+      year: 2009
+    - name: Youngdae Kim
+      year: 2009
