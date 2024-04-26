@@ -13,7 +13,7 @@ sitemap: true
             <div class="people-list">
                 {% assign people = site.people | where: 'position', category.name %}
                 {% for member in people %}
-                <div class="person" onclick="location.href='{{ site.url }}{{ site.baseurl }}{{ member.url }}';" style="cursor: pointer;">
+                <div class="person">
                     <div class="person-image-container">
                         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/people/{{ member.photo }}"
                             alt="{{ member.name }}">
