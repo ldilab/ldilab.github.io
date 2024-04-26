@@ -5,12 +5,16 @@ korean_name: 김종윤
 position: Ph.D. & M.S. (integrated) Student
 department: Interdisciplinary Program in Artificial Intelligence
 interests:
- - "LLM"
- - "Text Representation"
- - "Information Retrieval"
+ - Information Retrieval
+ - Text Representation
+ - LLM
+ - Causal Inference
+ - Generative Retrieval
+ - Reasoning
 education:
- - "to be completed"
+ - Ph.D. in Artificial Intelligence, Seoul National University, 2023~
+ - B.Eng. in Electrical and Electronic Engineering, University of Bristol (United Kingdom), 2018~2021
 mail: john.jongyoon.kim@snu.ac.kr
-website: "https://artemisdicotiar.github.io/cv.html"
-photo: kimjy.jpg
+website: "http://blog.johnjongyoonkim.com"
+photo: nopicture.png
 ---
