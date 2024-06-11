@@ -1,5 +1,17 @@
 - year: 2024
   papers:
+  - title: 'ListT5: Listwise Reranking with Fusion-in-Decoder Improves Zero-shot Retrieval'
+    authors: 'Soyoung Yoon, Eunbi Choi, Jiyeon Kim, Yireun Kim, Hyeongu Yun, Seung-won Hwang'
+    venue: ACL 2024
+  - title: 'ArchCode: Incorporating Software Requirements in Code Generation with Large Language Models'
+    authors: 'Hojae Han, Jaejin Kim, Jaeseok Yoo, Youngwon Lee, Seung-won Hwang'
+    venue: ACL 2024
+  - title: 'DADA: Distribution-Aware Domain Adaptation of PLMs for Information Retrieval'
+    authors: '{Dohyeon Lee, Jongyoon Kim}, Seung-won Hwang, Joonsuk Park'
+    venue: Findings of ACL 2024
+  - title: 'RaDA: Retrieval-augmented Web Agent Planning with LLMs'
+    authors: 'Minsoo Kim, Victor S. Bursztyn, Eunyee Koh, Shunan Guo, Seung-won Hwang'
+    venue: Findings of ACL 2024
   - title: 'HIL: Hybrid Isotropy Learning for Zero-shot Performance in Dense retrieval'
     authors: Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang
     venue: NAACL 2024
