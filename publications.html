@@ -14,7 +14,7 @@ sitemap: true
                 {% for publication in publications-year.papers %}
                 <div class="publication">
                     {% if publication.url %}
-                    <a href="{{ publication.url }}" class="publication-title">{{ publication.title }}</a>
+                    <a href="{{ publication.url }}" target="_blank" class="publication-title">{{ publication.title }}</a>
                     {% else %}
                     <div class="publication-title">{{ publication.title }}</div>
                     {% endif %}
