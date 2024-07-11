@@ -201,6 +201,25 @@ nav {
     color: var(--text-darker-color);
 }
 
+.hero .github-btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: var(--text-darker-color);
+    color: var(--bg-color);
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 5px;
+    outline: 2px solid var(--text-darker-color);
+    transition: background-color 0.3s, color 0.3s;
+    margin-left: 8px;
+}
+
+.hero .github-btn:hover {
+    background-color: transparent;
+    color: var(--text-darker-color);
+}
+
 /* Footer */
 
 footer {
