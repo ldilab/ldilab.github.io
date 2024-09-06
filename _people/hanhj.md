@@ -5,11 +5,12 @@ korean_name: 한호재
 position: Ph.D. Student
 department: Department of Computer Science and Engineering
 interests:
- - "Information Retrieval"
- - "Code"
- - "Training Data Optimization"
+ - "Code Generation"
+ - "Code Search"
 education:
- - Ph.D. in Computer Science and Engineering, Seoul National University ~
+ - Ph.D. student in Computer Science, Seoul National University, 2021-Present
+ - M.S. in Computer Science, Yonsei University, 2021
+ - B.S. in Computer Science, Yonsei University, 2018
 mail: stovecat@snu.ac.kr
 website: "https://www.linkedin.com/in/hojae-han/"
 photo: nopicture.png
