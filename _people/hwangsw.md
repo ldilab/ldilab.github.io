@@ -11,7 +11,7 @@ interests:
 education:
  - "Ph.D. in Computer Science, University of Illinois Urbana-Champaign, 2005"
  - "M.S. in Computer Science, University of Illinois Urbana-Champaign, 2000"
- - "B.S. in Computer Science, KAIST 1998"
+ - "B.S. in Computer Science, Korea Advanced Institute of Science and Technology, 1998"
 mail: seungwonh@snu.ac.kr
 office: 301-520
 website: https://seungwonh.github.io/
