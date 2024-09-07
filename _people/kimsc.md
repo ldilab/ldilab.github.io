@@ -11,4 +11,5 @@ education:
  - B.S. in Computer Science, Seoul National University, 2022
 mail: sc613@snu.ac.kr
 photo: nopicture.png
+timestamp: 2022-1-5
 ---

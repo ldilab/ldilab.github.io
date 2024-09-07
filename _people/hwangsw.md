@@ -1,6 +1,6 @@
 ---
 short_name: hwangsw
-name: Hwang Seung-Won
+name: Hwang Seung-won
 korean_name: 황승원
 position: Professor
 department: Department of Computer Science and Engineering
@@ -16,4 +16,5 @@ mail: seungwonh@snu.ac.kr
 office: 301-520
 website: https://seungwonh.github.io/
 photo: hwangsw.jpg
+timestamp: 2005-2-1
 ---

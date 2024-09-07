@@ -7,7 +7,8 @@ department: Department of Computer Science and Engineering
 interests:
  - "NLP"
 education:
- - Ph.D. in Computer Science and Engineering, Seoul National University ~
+ - Ph.D. student in Computer Science, Seoul National University, 2021-Present
 mail: minjiseo@snu.ac.kr
 photo: nopicture.png
+timestamp: 2021-2-4
 ---

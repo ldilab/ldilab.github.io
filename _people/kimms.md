@@ -13,4 +13,5 @@ education:
 mail: minsoo9574@snu.ac.kr
 website: https://mnskim.github.io
 photo: nopicture.png
+timestamp: 2020-1-1
 ---

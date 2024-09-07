@@ -11,4 +11,5 @@ education:
  - "M.S. student in Computer Science, Seoul National University, 2023-Present"
 mail: jaeseok2.yoo@snu.ac.kr
 photo: nopicture.png
+timestamp: 2023-1-3
 ---

@@ -10,4 +10,5 @@ education:
  - "M.S. in Artificial Intelligence, Seoul National University ~"
 mail: jaejin.kim@snu.ac.kr
 photo: nopicture.png
+timestamp: 2023-2-3
 ---

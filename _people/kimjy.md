@@ -17,4 +17,5 @@ education:
 mail: john.jongyoon.kim@snu.ac.kr
 website: "http://blog.johnjongyoonkim.com"
 photo: nopicture.png
+timestamp: 2023-1-2
 ---

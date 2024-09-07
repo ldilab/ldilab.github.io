@@ -15,4 +15,5 @@ education:
 mail: jihyukkim@yonsei.ac.kr
 website: "https://jihyukkim-nlp.github.io/"
 photo: kimjhyeouk.jpeg
+timestamp: 2019-1-1
 ---
