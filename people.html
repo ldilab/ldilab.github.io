@@ -11,7 +11,7 @@ sitemap: true
         <div class="people-content">
             <div class="people-category">{{ category.category }}</div>
             <div class="people-list">
-                {% assign people = site.people | where: 'position', category.name %}
+                {% assign people = site.people | where: 'position', category.name | sort: 'timestamp' %}
                 {% for member in people %}
                 <div class="person" onclick="location.href='{{ site.url }}{{ site.baseurl }}{{ member.url }}';" style="cursor: pointer;">
                     <div class="person-image-container">
@@ -19,8 +19,11 @@ sitemap: true
                             alt="{{ member.name }}">
                     </div>
                     <div class="person-info-container">
-                        <div class="person-name">{{ member.name }} ({{ member.korean_name }})</div>
-                        <a class="person-mail" href="mailto:mail@mail.com">{{ member.mail }}</a>
+                        <div class="person-name">
+                            {% assign name_parts = member.name | split: ' ' %}
+                            {{ name_parts | first }}, {{ name_parts | last }} ({{ member.korean_name }})
+                          </div>
+                        <a class="person-mail" href="mailto:{{ member.mail }}">{{ member.mail }}</a>
                         <ul class="person-interests">
                             {% for interest in member.interests %}
                             <li>{{ interest }}</li>
@@ -38,7 +41,7 @@ sitemap: true
         
         {% for alumnis-type in site.data.alumnis %}
         <div class="people-content">
-            <div class="people-category-alumni">Alumnis ({{ alumnis-type.type }})</div>
+            <div class="people-category-alumni">Alumni ({{ alumnis-type.type }})</div>
             <div class="people-list">
                 {% for alumni in alumnis-type.alumnis %}
                     {% if alumni.website %}

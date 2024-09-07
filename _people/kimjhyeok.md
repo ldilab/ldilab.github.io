@@ -2,7 +2,7 @@
 short_name: kimjh
 name: Kim Jihyuk
 korean_name: 김지혁
-position: Ph.D. & M.S. (integrated) Student
+position: Integrated M.S./Ph.D. Student
 department: Department of Computer Science and Engineering
 interests:
  - Information Retrieval, Document/Passage Retrieval, Dense Retrieval
@@ -15,4 +15,5 @@ education:
 mail: jihyukkim@yonsei.ac.kr
 website: "https://jihyukkim-nlp.github.io/"
 photo: kimjhyeouk.jpeg
+timestamp: 2019-1-1
 ---

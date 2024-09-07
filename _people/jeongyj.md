@@ -11,4 +11,5 @@ education:
  - Ph.D. in Interdisciplinary Program in Artificial Intelligence, Seoul National University ~
 mail: y970120@snu.ac.kr
 photo: nopicture.png
+timestamp: 2023-1-1
 ---

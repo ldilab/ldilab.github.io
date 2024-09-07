@@ -10,4 +10,5 @@ education:
  - M.S. student in Computer Science, Yonsei University, 2019-Present
 mail: dormouse@yonsei.ac.kr
 photo: nopicture.png
+timestamp: 2019-1-2
 ---

@@ -12,4 +12,5 @@ education:
  - B.S. in Computer Science, Korea University, 2017~2022
 mail: jae.young@snu.ac.kr
 photo: nopicture.png
+timestamp: 2024-1-1
 ---

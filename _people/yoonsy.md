@@ -15,4 +15,5 @@ education:
 mail: soyoung.yoon@snu.ac.kr
 website: https://soyoung97.github.io/profile/
 photo: yoonsy.jpeg
+timestamp: 2023-2-1
 ---

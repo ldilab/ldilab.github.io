@@ -10,4 +10,5 @@ education:
  - Ph.D. in Computer Science and Engineering, Seoul National University ~
 mail: wonpyo.park@snu.ac.kr
 photo: nopicture.png
+timestamp: 2022-1-1
 ---

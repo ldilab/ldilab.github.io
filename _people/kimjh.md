@@ -2,7 +2,7 @@
 short_name: kimjh
 name: Kim Jongho
 korean_name: 김종호
-position: Ph.D. & M.S. (integrated) Student
+position: Integrated M.S./Ph.D. Student
 department: Interdisciplinary Program in Artificial Intelligence
 interests:
  - "Reasoning"
@@ -14,4 +14,5 @@ education:
 mail: jongh97@snu.ac.kr
 website: https://www.linkedin.com/in/jongho-kim-a892bb289/
 photo: kimjh.jpg
+timestamp: 2022-2-1
 ---
