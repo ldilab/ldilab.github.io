@@ -1,14 +1,14 @@
 ---
 short_name: jeongys
-name: Jung Yeonjoon
-korean_name: 정연준
-position: Ph.D. Student
+name: Jeong Yeonseok
+korean_name: 정연석
+position: Ph.D. & M.S. (integrated) Student
 department: Interdisciplinary Program in Artificial Intelligence
 interests:
  - "LLM"
  - "Question Answering"
 education:
- - Ph.D. in Interdisciplinary Program in Artificial Intelligence, Seoul National University ~
+ - Ph.D. student in Artificial Intelligence, Seoul National University, 2022-Present
 mail: jys3136@snu.ac.kr
 photo: nopicture.png
 ---

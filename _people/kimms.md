@@ -1,13 +1,16 @@
 ---
 short_name: kimms
-name: Kim Minseo
-korean_name: 김민서
-position: Ph.D. Student
+name: Kim Minsoo
+korean_name: 김민수
+position: Ph.D. & M.S. (integrated) Student
 department: Interdisciplinary Program in Artificial Intelligence
 interests:
- - "Reinforcement Learning"
+ - Agentic LLM
+ - Text-Based Games
+ - Information Retrieval
 education:
- - Ph.D. in Interdisciplinary Program in Artificial Intelligence, Seoul National University ~
+ - Ph.D. student in Artificial Intelligence, Seoul National University, 2022-Present
 mail: minsoo9574@snu.ac.kr
+website: https://mnskim.github.io
 photo: nopicture.png
 ---

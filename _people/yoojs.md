@@ -5,9 +5,10 @@ korean_name: 유재석
 position: M.S. Student
 department: Department of Computer Science and Engineering
 interests:
- - "Code"
+ - Code Generation
+ - Code Retrieval
 education:
- - "M.S. in Computer Science and Engineering, Seoul National University ~"
+ - "M.S. student in Computer Science, Seoul National University, 2023-Present"
 mail: jaeseok2.yoo@snu.ac.kr
 photo: nopicture.png
 ---

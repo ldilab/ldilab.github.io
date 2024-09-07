@@ -1,13 +1,13 @@
 ---
 short_name: songsa
-name: Song Sua
-korean_name: 송수아
+name: Sung Sua
+korean_name: 성수아
 position: M.S. Student
 department: Department of Computer Science and Engineering
 interests:
  - "NLP"
 education:
- - "M.S. in Computer Science and Engineering, Seoul National University ~"
+ - M.S. student in Computer Science, Yonsei University, 2019-Present
 mail: dormouse@yonsei.ac.kr
 photo: nopicture.png
 ---
