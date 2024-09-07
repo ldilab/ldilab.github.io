@@ -2,7 +2,7 @@
 short_name: hanse
 name: Han Sang-eun
 korean_name: 한상은
-position: Ph.D. & M.S. (integrated) Student
+position: Integrated M.S./Ph.D. Student
 department: Interdisciplinary Program in Artificial Intelligence
 interests:
  - "Question Answering"

@@ -2,7 +2,7 @@
 short_name: hongsn
 name: Hong Soona
 korean_name: 홍수나
-position: Ph.D. & M.S. (integrated) Student
+position: Integrated M.S./Ph.D. Student
 department: Department of Computer Science and Engineering
 interests:
  - Information Retrieval

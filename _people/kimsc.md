@@ -2,7 +2,7 @@
 short_name: kimsc
 name: Kim Suchan
 korean_name: 김수찬
-position: Ph.D. & M.S. (integrated) Student
+position: Integrated M.S./Ph.D. Student
 department: Department of Computer Science and Engineering
 interests:
  - "NLP"

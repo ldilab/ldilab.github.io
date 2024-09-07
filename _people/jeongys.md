@@ -2,7 +2,7 @@
 short_name: jeongys
 name: Jeong Yeonseok
 korean_name: 정연석
-position: Ph.D. & M.S. (integrated) Student
+position: Integrated M.S./Ph.D. Student
 department: Interdisciplinary Program in Artificial Intelligence
 interests:
  - "LLM"

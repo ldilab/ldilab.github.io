@@ -2,7 +2,7 @@
 short_name: leeyw
 name: Lee Youngwon
 korean_name: 이영원
-position: Ph.D. & M.S. (integrated) Student
+position: Integrated M.S./Ph.D. Student
 department: Department of Computer Science and Engineering
 interests:
  - "Conditional text generation"

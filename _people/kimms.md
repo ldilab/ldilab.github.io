@@ -2,7 +2,7 @@
 short_name: kimms
 name: Kim Minsoo
 korean_name: 김민수
-position: Ph.D. & M.S. (integrated) Student
+position: Integrated M.S./Ph.D. Student
 department: Interdisciplinary Program in Artificial Intelligence
 interests:
  - Agentic LLM

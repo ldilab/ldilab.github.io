@@ -45,7 +45,7 @@ Content:
 short_name: <filename>
 name: Family First
 korean_name: 
-position: <M.S. Student | Ph.D. & M.S. (integrated) Student | Ph.D. Student | Professor> (Please respect the exact format)
+position: <M.S. Student | Integrated M.S./Ph.D. Student | Ph.D. Student | Professor> (Please respect the exact format)
 department: Department of Computer Science and Engineering
 interests:
  - "Interest 1"
