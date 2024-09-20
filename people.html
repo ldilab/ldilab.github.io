@@ -25,8 +25,15 @@ sitemap: true
                         </div>
                         <a class="person-mail" href="mailto:{{ member.mail }}">{{ member.mail }}</a>
                         <ul class="person-interests">
+                            {% assign count = 0 %}
                             {% for interest in member.interests %}
-                            <li>{{ interest }}</li>
+                            {% assign count = count | plus: 1 %}
+                            {% if count <= 3 %}
+                                <li>{{ interest }}</li>
+                            {% else %}
+                                <li>...</li>
+                                {% break %}
+                            {% endif %}
                             {% endfor %}
                         </ul>
                         <a class="person-moreinfo" href="{{ site.url }}{{ site.baseurl }}{{ member.url }}">More

@@ -619,6 +619,7 @@ a.person-publication:hover {
 
     .show-nav {
         display: block !important;
+        z-index: 1;
     }
 
     .nav-links-container {
