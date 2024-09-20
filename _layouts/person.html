@@ -57,5 +57,28 @@ sitemap: false
         <div class="other-info"></div>
             {{ content }}
         </div>
+
+        {% assign pubname = last_name | append: " " | append: first_name %}
+        {% assign ppublication = "" %}
+        {% for publications-year in site.data.publications %}
+            {% for publication in publications-year.papers %}
+                {% if publication.authors contains pubname %}
+                    {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: ";;" %}
+                {% endif %}
+            {% endfor %}
+        {% endfor %}
+
+        {% assign ppublication = ppublication | split: ";;" %}
+        {% if ppublication.size > 1 %}
+            <div class="other-info">
+                <h2 class="other-category">Publications</h2>
+                <ul>
+                    {% for publication in ppublication %}
+                        {% assign ppublication_detail = publication | split: "|" %}
+                        <li><a class="person-publication" href="{{ site.url }}{{ site.baseurl }}/publications">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span></li>
+                    {% endfor %}
+                </ul>
+            </div>
+        {% endif %}
     </div>
 </div>

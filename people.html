@@ -22,7 +22,7 @@ sitemap: true
                         <div class="person-name">
                             {% assign name_parts = member.name | split: ' ' %}
                             {{ name_parts | first }}, {{ name_parts | last }} ({{ member.korean_name }})
-                          </div>
+                        </div>
                         <a class="person-mail" href="mailto:{{ member.mail }}">{{ member.mail }}</a>
                         <ul class="person-interests">
                             {% for interest in member.interests %}

@@ -492,6 +492,22 @@ a.alumni:hover {
     text-decoration: underline;
 }
 
+.person-publication {
+    color: var(--text-color);
+    text-decoration: none;
+    width: 100%;
+    margin-bottom: 6px;
+}
+
+a.person-publication:hover {
+    text-decoration: underline;
+}
+
+.person-pub-venue {
+    color: var(--text-color);
+    font-weight: 600;
+}
+
 /* Presentation */
 
 .person-presentation {
