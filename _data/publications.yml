@@ -3,29 +3,37 @@
   - title: 'ListT5: Listwise Reranking with Fusion-in-Decoder Improves Zero-shot Retrieval'
     authors: 'Soyoung Yoon, Eunbi Choi, Jiyeon Kim, Yireun Kim, Hyeongu Yun, Seung-won Hwang'
     venue: ACL 2024
+    url: https://aclanthology.org/2024.acl-long.125.pdf
   - title: 'ArchCode: Incorporating Software Requirements in Code Generation with Large Language Models'
     authors: 'Hojae Han, Jaejin Kim, Jaeseok Yoo, Youngwon Lee, Seung-won Hwang'
     venue: ACL 2024
+    url: https://aclanthology.org/2024.acl-long.730.pdf
   - title: 'DADA: Distribution-Aware Domain Adaptation of PLMs for Information Retrieval'
     authors: '{Dohyeon Lee, Jongyoon Kim}, Seung-won Hwang, Joonsuk Park'
     venue: Findings of ACL 2024
+    url: https://aclanthology.org/2024.findings-acl.825.pdf
   - title: 'RaDA: Retrieval-augmented Web Agent Planning with LLMs'
     authors: 'Minsoo Kim, Victor S. Bursztyn, Eunyee Koh, Shunan Guo, Seung-won Hwang'
     venue: Findings of ACL 2024
+    url: https://aclanthology.org/2024.findings-acl.802.pdf
   - title: 'HIL: Hybrid Isotropy Learning for Zero-shot Performance in Dense retrieval'
     authors: Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang
     venue: NAACL 2024
+    url: https://aclanthology.org/2024.naacl-long.437.pdf
   - title: 'Script-mix: Mixing Scripts for Low-resource Language Parsing'
     authors: Jaeseong Lee, Dohyeon Lee, Seung-won Hwang
     venue: NAACL 2024
+    url: https://aclanthology.org/2024.naacl-long.357.pdf
   - title: 'COMMIT: Code-Mixing English-Centric Large Language Model for Multilingual
       Instruction Tuning'
     authors: Jaeseong Lee, YeonJoon Jung, Seung-won Hwang
     venue: Findings of NAACL 2024 (short)
+    url: https://aclanthology.org/2024.findings-naacl.198.pdf
   - title: 'ContrastiveMix: Overcoming Code-Mixing Dilemma in Cross-Lingual Transfer
       for Information Retrieval'
     authors: Junggeun Do, Jaeseong Lee, Seung-won Hwang
     venue: NAACL 2024 (short)
+    url: https://aclanthology.org/2024.naacl-short.17.pdf
   - title: Chaining Event Spans for Temporal Relation Grounding
     authors: Jongho Kim, Dohyeon Lee, Minsoo Kim, Seung-won Hwang
     venue: EACL 2024
