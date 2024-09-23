@@ -64,7 +64,11 @@ sitemap: false
             {% for publication in publications-year.papers %}
                 {% assign downcasedauthors = publication.authors | downcase %}
                 {% if downcasedauthors contains pubname %}
-                    {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: ";;" %}
+                    {% if publication.url %}
+                        {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: "|" | append: publication.url | append: ";;" %}
+                    {% else %}
+                        {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: ";;" %}
+                    {% endif %}
                 {% endif %}
             {% endfor %}
         {% endfor %}
@@ -76,7 +80,11 @@ sitemap: false
                 <ul>
                     {% for publication in ppublication %}
                         {% assign ppublication_detail = publication | split: "|" %}
-                        <li><a class="person-publication" href="{{ site.url }}{{ site.baseurl }}/publications">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span></li>
+                        {% if ppublication_detail.size > 2 %}
+                            <li><a class="person-publication" href="{{ ppublication_detail[2] }}">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span></li>
+                        {% else %}
+                            <li><a class="person-publication" href="{{ site.url }}{{ site.baseurl }}/publications">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span></li>
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </div>
