@@ -58,18 +58,19 @@ sitemap: false
             {{ content }}
         </div>
 
-        {% assign pubname = last_name | append: " " | append: first_name %}
+        {% assign pubname = last_name | append: " " | append: first_name | downcase %}
         {% assign ppublication = "" %}
         {% for publications-year in site.data.publications %}
             {% for publication in publications-year.papers %}
-                {% if publication.authors contains pubname %}
+                {% assign downcasedauthors = publication.authors | downcase %}
+                {% if downcasedauthors contains pubname %}
                     {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: ";;" %}
                 {% endif %}
             {% endfor %}
         {% endfor %}
 
         {% assign ppublication = ppublication | split: ";;" %}
-        {% if ppublication.size > 1 %}
+        {% if ppublication.size > 0 %}
             <div class="other-info">
                 <h2 class="other-category">Publications</h2>
                 <ul>
