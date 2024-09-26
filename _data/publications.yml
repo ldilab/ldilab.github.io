@@ -1,5 +1,23 @@
 - year: 2024
   papers:
+  - title: 'Breaking ReLU Barrier: Generalized MoEfication for Dense Pretrained Models'
+    authors: 'Jaeseong Lee, Seung-won Hwang, Wonpyo Park, Mingi Ji'
+    venue: EMNLP 2024
+  - title: 'Interventional Speech Noise Injection for ASR Generalizable Spoken Language Understanding'
+    authors: 'YeonJoon Jung, Jaeseong Lee, Seungtaek Choi, Dohyeon Lee, Minsoo Kim, Seung-won Hwang'
+    venue: EMNLP 2024
+  - title: 'QuBE: Question-based Belief Enhancement for Agentic LLM'
+    authors: 'Minsoo Kim, Jongyoon Kim, Jihyuk Kim, Seung-won Hwang'
+    venue: EMNLP 2024
+  - title: 'Coffee-Gym: An Environment for Evaluating and Improving Natural Language Feedback on Erroneous Code'
+    authors: 'Hyungjoo Chae, Taeyoon Kwon, Seungjun Moon, Yongho Song, Dongjin Kang, Kai Tzu-iunn Ong, Beong-woo Kwak, Seonghyeon Bae, Seung-won Hwang, Jinyoung Yeo'
+    venue: EMNLP 2024
+  - title: 'Meta-Prompting Efficient Task-Adaptive Query Generator for Retrieval'
+    authors: 'Yoonsang Lee, Minsoo Kim, Seung-won Hwang'
+    venue: Findings of EMNLP 2024
+  - title: 'Intended Target Identification for Anomia Patients with Gradient-based Selective Augmentation'
+    authors: 'Jongho Kim, Romain Storaï, Seung-won Hwang'
+    venue: Findings of EMNLP 2024
   - title: 'ListT5: Listwise Reranking with Fusion-in-Decoder Improves Zero-shot Retrieval'
     authors: 'Soyoung Yoon, Eunbi Choi, Jiyeon Kim, Yireun Kim, Hyeongu Yun, Seung-won Hwang'
     venue: ACL 2024
