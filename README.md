@@ -4,6 +4,20 @@ The Language and Data Intelligence Laboratory (LDI) website is built using [Jeky
 
 ## Build and Deploy Locally
 
+### Testing the website locally with Bundle
+
+After cloning the repository, one may want to run the website locally to see the changes before deploying it to the main repository.
+Hopefully, Jekyll got you covered, and you can run the website locally with the following command:
+
+```bash
+bundle exec jekyll serve --baseurl=""
+```
+
+The website will be available at `http://localhost:4000/`. (Even though you run the command on a remote dev container.)
+If you get any error, you can refer to this page for help: [Github Pages run your Jekyll locally for testing](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll)
+
+### Building the static website locally
+
 *This section concerns the local development of the website. If you want to deploy the website to Github Pages, no actions are needed except pushing the changes to the `master` branch.*
 
 In order to build the website, you will need to have [Ruby](https://www.ruby-lang.org/en/) and [Bundler](https://bundler.io/) installed.
@@ -36,7 +50,7 @@ They are organized as follow:
 
 ### People
 
-Under `_members/`, each member is represented through a markdown file.
+Under `_people/`, each member is represented through a markdown file.
 Please adopt the filename as follow: `<family name lowercased><first letters of each symbol>.md`
 
 Content:

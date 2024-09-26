@@ -5,7 +5,7 @@ korean_name: 로망
 position: M.S. Student
 department: Department of Computer Science and Engineering
 interests:
- - "Adaptive Computations in Transformers"
+ - "Adaptive Computation in Transformers"
  - "Information Retrieval"
 education:
  - "M.S. in Computer Science and Engineering, Seoul National University 2023~"
