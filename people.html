@@ -13,7 +13,11 @@ sitemap: true
             <div class="people-list">
                 {% assign people = site.people | where: 'position', category.name | sort: 'timestamp' %}
                 {% for member in people %}
-                <div class="person" onclick="location.href='{{ site.url }}{{ site.baseurl }}{{ member.url }}';" style="cursor: pointer;">
+                {% assign memberurl = site.url | append: site.baseurl | append: member.url %}
+                {% if member.position == 'Professor' %}
+                    {% assign memberurl = 'https://seungwonh.github.io/' %}
+                {% endif %}
+                <div class="person" onclick="location.href='{{ memberurl }}';" style="cursor: pointer;">
                     <div class="person-image-container">
                         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/people/{{ member.photo }}"
                             alt="{{ member.name }}">
@@ -36,7 +40,7 @@ sitemap: true
                             {% endif %}
                             {% endfor %}
                         </ul>
-                        <a class="person-moreinfo" href="{{ site.url }}{{ site.baseurl }}{{ member.url }}">More
+                        <a class="person-moreinfo" href="{{ memberurl }}">More
                             Information</a>
                     </div>
                 </div>
