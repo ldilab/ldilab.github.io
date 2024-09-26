@@ -1,7 +1,7 @@
 - year: 2024
   papers:
   - title: 'Piano performance evaluation dataset with multilevel perceptual features'
-    authors: 'Jisoo Park, Jongho Kim, Jeong Mi Park, Ahyeon Choi, Wen-Syan Li, Jonghwa Park, Seung-won Hwang'
+    authors: '{Jisoo Park, Jongho Kim}, Jeong Mi Park, Ahyeon Choi, Wen-Syan Li, Jonghwa Park, Seung-won Hwang'
     venue: Scientific Reports
   - title: 'Breaking ReLU Barrier: Generalized MoEfication for Dense Pretrained Models'
     authors: 'Jaeseong Lee, Seung-won Hwang, Wonpyo Park, Mingi Ji'
