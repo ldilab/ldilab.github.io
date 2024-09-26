@@ -62,12 +62,13 @@ sitemap: false
         {% assign ppublication = "" %}
         {% for publications-year in site.data.publications %}
             {% for publication in publications-year.papers %}
+                {% assign authors = publication.authors %}
                 {% assign downcasedauthors = publication.authors | downcase %}
                 {% if downcasedauthors contains pubname %}
                     {% if publication.url %}
-                        {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: "|" | append: publication.url | append: ";;" %}
+                        {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: "|" | append: authors |append: "|" | append: publication.url | append: ";;" %}
                     {% else %}
-                        {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: ";;" %}
+                        {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue |append: "|" | append: authors | append: ";;" %}
                     {% endif %}
                 {% endif %}
             {% endfor %}
@@ -81,9 +82,9 @@ sitemap: false
                     {% for publication in ppublication %}
                         {% assign ppublication_detail = publication | split: "|" %}
                         {% if ppublication_detail.size > 2 %}
-                            <li><a class="person-publication" href="{{ ppublication_detail[2] }}">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span></li>
-                        {% else %}
-                            <li><a class="person-publication" href="{{ site.url }}{{ site.baseurl }}/publications">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span></li>
+                            <li><a class="person-publication" href="{{ ppublication_detail[3] }}">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span><br>{{ ppublication_detail[2] }}</li>
+                        {% else %}       
+                        <li><a class="person-publication" href="{{ site.url }}{{ site.baseurl }}/publications">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span><br>{{ ppublication_detail[2] }}</li>
                         {% endif %}
                     {% endfor %}
                 </ul>
