@@ -21,6 +21,10 @@
   - title: 'Intended Target Identification for Anomia Patients with Gradient-based Selective Augmentation'
     authors: 'Jongho Kim, Romain Storaï, Seung-won Hwang'
     venue: Findings of EMNLP 2024
+  - title: 'Analyzing the Effectiveness of Listwise Reranking with Positional Invariance on Temporal Generalizability'
+    authors: '{Soyoung Yoon, Jongyoon Kim}, Seung-won Hwang'
+    venue: CLEF 2024, LongEval
+    url: https://ceur-ws.org/Vol-3740/paper-221.pdf
   - title: 'ListT5: Listwise Reranking with Fusion-in-Decoder Improves Zero-shot Retrieval'
     authors: 'Soyoung Yoon, Eunbi Choi, Jiyeon Kim, Yireun Kim, Hyeongu Yun, Seung-won Hwang'
     venue: ACL 2024
