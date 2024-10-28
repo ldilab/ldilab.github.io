@@ -58,11 +58,31 @@ sitemap: false
             {{ content }}
         </div>
 
+        {% assign alpha_chars = "abcdefghijklmnopqrstuvwxyzï" | split: "" %}
         {% assign pubname = last_name | append: " " | append: first_name | downcase %}
         {% assign ppublication = "" %}
         {% for publications-year in site.data.publications %}
             {% for publication in publications-year.papers %}
-                {% assign authors = publication.authors %}
+                {% assign authorslist = publication.authors | split: ", " %}
+                {% assign authors = "" %}
+                {% for author in authorslist %}
+                    {% assign lcaseauthor = author | downcase %}
+                    {% if lcaseauthor contains pubname %}
+                        {% assign chars = author | split: "" %}
+                        {% for char in chars %}
+                            {% assign lowerchar = char | downcase %}
+                            {% if alpha_chars contains lowerchar %}
+                                {% assign authors = authors | append: "<strong>" | append: char | append: "</strong>" %}
+                            {% else %}
+                                {% assign authors = authors | append: char %}
+                            {% endif %}
+                        {% endfor %}
+                        {% assign authors = authors | append: ", " %}
+                    {% else %}
+                        {% assign authors = authors | append: author | append: ", " %}
+                    {% endif %}
+                {% endfor %}
+                {% assign authors = authors | append: "@" | replace: ", @", "." %}
                 {% assign downcasedauthors = publication.authors | downcase %}
                 {% if downcasedauthors contains pubname %}
                     {% if publication.url %}
@@ -82,9 +102,9 @@ sitemap: false
                     {% for publication in ppublication %}
                         {% assign ppublication_detail = publication | split: "|" %}
                         {% if ppublication_detail.size > 2 %}
-                            <li><a class="person-publication" href="{{ ppublication_detail[3] }}">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span><br>{{ ppublication_detail[2] }}</li>
+                            <li><a class="person-publication" href="{{ ppublication_detail[3] }}">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span><br><em>{{ ppublication_detail[2] }}</em></li>
                         {% else %}       
-                        <li><a class="person-publication" href="{{ site.url }}{{ site.baseurl }}/publications">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span><br>{{ ppublication_detail[2] }}</li>
+                        <li><a class="person-publication" href="{{ site.url }}{{ site.baseurl }}/publications">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span><br><em>{{ ppublication_detail[2] }}</em></li>
                         {% endif %}
                     {% endfor %}
                 </ul>

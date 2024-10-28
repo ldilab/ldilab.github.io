@@ -16,6 +16,6 @@ education:
  - B.Eng. in Electrical and Electronic Engineering, University of Bristol (United Kingdom), 2018~2021
 mail: john.jongyoon.kim@snu.ac.kr
 website: "http://blog.johnjongyoonkim.com"
-photo: nopicture.png
-timestamp: 2023-1-2
+photo: jongyoonkim.jpeg
+timestamp: 2023-3-2
 ---

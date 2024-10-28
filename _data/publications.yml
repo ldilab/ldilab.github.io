@@ -12,15 +12,16 @@
   - title: 'QuBE: Question-based Belief Enhancement for Agentic LLM'
     authors: 'Minsoo Kim, Jongyoon Kim, Jihyuk Kim, Seung-won Hwang'
     venue: EMNLP 2024
-  - title: 'Coffee-Gym: An Environment for Evaluating and Improving Natural Language Feedback on Erroneous Code'
-    authors: 'Hyungjoo Chae, Taeyoon Kwon, Seungjun Moon, Yongho Song, Dongjin Kang, Kai Tzu-iunn Ong, Beong-woo Kwak, Seonghyeon Bae, Seung-won Hwang, Jinyoung Yeo'
-    venue: EMNLP 2024
   - title: 'Meta-Prompting Efficient Task-Adaptive Query Generator for Retrieval'
     authors: 'Yoonsang Lee, Minsoo Kim, Seung-won Hwang'
     venue: Findings of EMNLP 2024
   - title: 'Intended Target Identification for Anomia Patients with Gradient-based Selective Augmentation'
     authors: 'Jongho Kim, Romain Storaï, Seung-won Hwang'
     venue: Findings of EMNLP 2024
+  - title: 'Analyzing the Effectiveness of Listwise Reranking with Positional Invariance on Temporal Generalizability'
+    authors: '{Soyoung Yoon, Jongyoon Kim}, Seung-won Hwang'
+    venue: CLEF 2024, LongEval
+    url: https://ceur-ws.org/Vol-3740/paper-221.pdf
   - title: 'ListT5: Listwise Reranking with Fusion-in-Decoder Improves Zero-shot Retrieval'
     authors: 'Soyoung Yoon, Eunbi Choi, Jiyeon Kim, Yireun Kim, Hyeongu Yun, Seung-won Hwang'
     venue: ACL 2024
@@ -66,8 +67,7 @@
     venue: EMNLP 2023
     url: https://aclanthology.org/2023.emnlp-main.371.pdf
   - title: On Sample-Efficient Code Generation
-    authors: Hojae Han, Yu Jin Kim, Byoungjip Kim, Youngwon Lee, Kyungjae Lee, Kyungmin
-      Lee, Moontae Lee, Kyunghoon Bae, Seung-won Hwang
+    authors: Hojae Han, Yu Jin Kim, Byoungjip Kim, Youngwon Lee, Kyungjae Lee, Kyungmin Lee, Moontae Lee, Kyunghoon Bae, Seung-won Hwang
     venue: EMNLP 2023 (Industry Track)
     url: https://aclanthology.org/2023.emnlp-industry.73.pdf
   - title: Relevance-assisted Generation for Robust Zero-shot Retrieval
@@ -87,17 +87,14 @@
     venue: INTERSPEECH 2023
     url: https://arxiv.org/pdf/2308.04176
   - title: On Complementarity Objectives for Hybrid Retrieval
-    authors: Dohyeon Lee, Seung-won Hwang, Kyungjae Lee, Seungtaek Choi, Sunghyun
-      Park
+    authors: Dohyeon Lee, Seung-won Hwang, Kyungjae Lee, Seungtaek Choi, Sunghyun Park
     venue: ACL 2023
     url: https://aclanthology.org/2023.acl-long.746.pdf
   - title: Retrieval-augmented Video Encoding for Instructional Captioning
-    authors: Yeonjoon Jung, Minsoo Kim, Seungtaek Choi, Jihyuk Kim, Minji Seo, Seung-won
-      Hwang
+    authors: Yeonjoon Jung, Minsoo Kim, Seungtaek Choi, Jihyuk Kim, Minji Seo, Seung-won Hwang
     venue: Findings of ACL 2023
     url: https://aclanthology.org/2023.findings-acl.543.pdf
-  - title: 'When to Read Documents or QA History: On Unified, Selective Open-domain
-      QA'
+  - title: 'When to Read Documents or QA History: On Unified, Selective Open-domain QA'
     authors: '{Kyungjae Lee, Sang-eun Han}, Seung-won Hwang, Moontae Lee'
     venue: Findings of ACL 2023
     url: https://aclanthology.org/2023.findings-acl.401.pdf
@@ -105,8 +102,7 @@
     authors: '{Jaeseong Lee, Dohyeon Lee}, Jongho Kim, Seung-won Hwang'
     venue: ECIR 2023 (short)
     url: https://dl.acm.org/doi/abs/10.1007/978-3-031-28238-6_37
-  - title: 'Script, Language, Labels: Overcoming Three Discrepancies for Low-Resource
-      Language Specialization'
+  - title: 'Script, Language, Labels: Overcoming Three Discrepancies for Low-Resource Language Specialization'
     authors: Jaeseong Lee, Dohyeon Lee, Seung-won Hwang
     venue: AAAI 2023
     url: https://ojs.aaai.org/index.php/AAAI/article/view/26528/26300
@@ -136,8 +132,7 @@
     authors: Jihyuk Kim, Minsoo Kim, Seung-won Hwang
     venue: NAACL 2022 (short)
     url: https://aclanthology.org/2022.naacl-main.305.pdf
-  - title: Privacy-Preserving Text Classification on BERT Embeddings with Homomorphic
-      Encryption
+  - title: Privacy-Preserving Text Classification on BERT Embeddings with Homomorphic Encryption
     authors: '{Garam Lee, Minsoo Kim, Jai Hyun Park}, Seung-won Hwang, Jung Hee Cheon'
     venue: NAACL 2022 (short)
     url: https://aclanthology.org/2022.naacl-main.231.pdf
@@ -150,8 +145,7 @@
     venue: Findings of ACL 2022 (short)
     url: https://aclanthology.org/2022.findings-acl.65.pdf
   - title: Plug-and-Play Adaptation for Continuously-updated QA
-    authors: Kyungjae Lee, Wookje Han, Seung-Won Hwang, Hwaran Lee, Joonsuk Park,
-      Sang-Woo Lee
+    authors: Kyungjae Lee, Wookje Han, Seung-Won Hwang, Hwaran Lee, Joonsuk Park, Sang-Woo Lee
     venue: Findings of ACL 2022
     url: https://aclanthology.org/2022.findings-acl.37.pdf
   - title: 'C2L: Causally Contrastive Learning for Robust Text Classification'
@@ -176,15 +170,12 @@
     authors: Jihyuk Kim, Young-In Song, Seung-won Hwang
     venue: SIGIR 2021 (short)
     url: https://doi.org/10.1145/3404835.3463067
-  - title: SCOPA - Soft Code-Switching, Pairwise Alignment for Zero-Shot Cross-lingual
-      Transfer
-    authors: '{Dohyeon Lee, Jaeseong Lee}, Gyewon Lee, Byung-Gon Chun, Seung-won
-      Hwang'
+  - title: SCOPA - Soft Code-Switching, Pairwise Alignment for Zero-Shot Cross-lingual Transfer
+    authors: '{Dohyeon Lee, Jaeseong Lee}, Gyewon Lee, Byung-Gon Chun, Seung-won Hwang'
     venue: CIKM 2021 (short)
     url: https://doi.org/10.1145/3459637.3482176
   - title: Counterfactual Generative Smoothing for Imbalanced Natural Language Classification
-    authors: Hojae Han, Seungtaek Choi, Myeongho Jeong, Jin-Woo Park, Seung-won
-      Hwang
+    authors: Hojae Han, Seungtaek Choi, Myeongho Jeong, Jin-Woo Park, Seung-won Hwang
     venue: CIKM 2021 (short)
     url: https://doi.org/10.1145/3459637.3482077
   - title: Label, Context Augmentation for Response Selection at DSTC8
@@ -192,8 +183,7 @@
     venue: IEEE Transactions on Audio, Speech,, Language Processing (TASLP), 2021
     url: https://doi.org/10.1109/TASLP.2021.3076876
   - title: Query Generation for Multimodal Documents
-    authors: Kyungho Kim, Kyungjae Lee, Seung-won Hwang, Young-In Song, Seungwook
-      Lee
+    authors: 'Kyungho Kim, Kyungjae Lee, Seung-won Hwang, Young-In Song, Seungwook Lee'
     venue: EACL 2021
     url: https://doi.org/10.18653/v1/2021.eacl-main.54
 - year: 2020
@@ -207,8 +197,7 @@
     venue: EMNLP 2020
     url: https://doi.org/10.18653/v1/2020.emnlp-main.543
   - title: Conditional Response Augmentation for Dialogue Using Knowledge Distillation
-    authors: '{Myeongho Jeong, Seungtaek Choi}, Hojae Han, Kyungho Kim, Seung-won
-      Hwang'
+    authors: '{Myeongho Jeong, Seungtaek Choi}, Hojae Han, Kyungho Kim, Seung-won Hwang'
     venue: INTERSPEECH 2020
     url: https://doi.org/10.21437/Interspeech.2020-1968
   - title: Training Data Optimization for Pairwise Learning to Rank
@@ -231,21 +220,57 @@
     authors: Seungtaek Choi, Haeju Park, Seung-won Hwang
     venue: 'Data Sci. Eng. 5(2): 193-204 (2020)'
     url: https://doi.org/10.1007/s41019-020-00119-z
-  - title: Conversion Prediction from Clickstream - Modeling Market Prediction, Customer
-      Predictability.
+  - title: 'Conversion Prediction from Clickstream - Modeling Market Prediction, Customer Predictability'
     authors: Jinyoung Yeo, Seung-won Hwang, Sungchul Kim, Eunyee Koh, Nedim Lipka
-    venue: 'IEEE Trans. Knowl. Data Eng. 32(2): 246-259 (2020)'
+    venue: 'IEEE TKDE 2020'
     url: https://doi.org/10.1109/TKDE.2018.2884467
   - title: XINA - Explainable Instance Alignment Using Dominance Relationship
     authors: Jinyoung Yeo, Haeju Park, Sanghoon Lee, Eric Wonhee Lee, Seung-won Hwang
-    venue: 'IEEE Trans. Knowl. Data Eng. 32(2): 388-401 (2020)'
+    venue: 'IEEE TKDE 2020'
     url: https://doi.org/10.1109/TKDE.2018.2881956
-  - title: Label-Efficient Training for Next Response Selection
-    authors: '{Seungtaek Choi, Myeongho Jeong}, Jinyoung Yeo, Seung-won Hwang'
-    venue: EMNLP 2020 (workshop, SustaiNLP)
-    url: https://aclanthology.org/2020.sustainlp-1.22/
-  - title: SQuAD2-CR - Semi-supervised Annotation for Cause, Rationales for Unanswerability
-      in SQuAD 2.0
+  - title: SQuAD2-CR - Semi-supervised Annotation for Cause, Rationales for Unanswerability in SQuAD 2.0
     authors: Gyeongbok Lee, Seung-won Hwang, Hyunsouk Cho
     venue: LREC 2020
     url: https://aclanthology.org/2020.lrec-1.667/
+- year: 2019
+  papers:
+  - title: 'Learning with Limited Data for Multilingual Reading Comprehension'
+    authors: Kyungjae Lee, Sunghyun Park, Hojae Han, Jinyoung Yeo, Seung-won Hwang, Juho Lee
+    venue: EMNLP-IJCNLP 2019
+    url: https://aclanthology.org/D19-1283.pdf
+  - title: 'MICRON: Multigranular Interaction for Contextualizing RepresentatiON in Non-factoid Question Answering'
+    authors: Hojae Han, Seungtaek Choi, Haeju Park, Seung-won Hwang
+    venue: EMNLP-IJCNLP 2019 (short)
+    url: https://aclanthology.org/D19-1601.pdf
+  - title: 'Categorical Metadata Representation for Customized Text Classification'
+    authors: Jihyeok Kim, Reinald Kim Amplayo, Kyungjae Lee, Sua Sung, Minji Seo, Seung-won Hwang
+    venue: TACL 2019
+    url: https://aclanthology.org/Q19-1013.pdf
+  - title: 'Text Length Adaptation in Sentiment Classification'
+    authors: 'Reinald Kim Amplayo, Seonjae Lim, Seung-won Hwang'
+    venue: ACML 2019
+    url: https://proceedings.mlr.press/v101/amplayo19a.html
+  - title: 'Soft Representation Learning for Sparse Transfer'
+    authors: 'Haeju Park, Jinyoung Yeo, Gengyu Wang, Seung-won Hwang'
+    venue: ACL 2019
+    url: https://aclanthology.org/P19-1151.pdf
+  - title: 'Explanatory and Actionable Debugging for Machine Learning: A TableQA Demonstration'
+    authors: 'Minseok Cho, Gyeongbok Lee, Seung-won Hwang'
+    venue: SIGIR 2019 (demo)
+    url: https://antest1.github.io/publications/sigir2019demo.pdf
+  - title: 'Paraphrase Diversification Using Counterfactual Debiasing'
+    authors: 'Sunghyun Park, Seung-won Hwang, Fuxiang Chen, Jaegul Choo, Jung-Woo Ha, Sunghun Kim, Jinyeong Yim'
+    venue: AAAI 2019
+    url: https://ojs.aaai.org/index.php/AAAI/article/view/4665/4543
+  - title: 'AutoSense Model forWord Sense Induction'
+    authors: 'Reinald Kim Amplayo, Seung-won Hwang, Min Song'
+    venue: AAAI 2019
+    url: https://ojs.aaai.org/index.php/AAAI/article/view/4580/4458
+  - title: 'QADiver: Interactive Framework for Diagnosing QA Models'
+    authors: 'Gyeongbok Lee, Sungdong Kim, Seung-won Hwang'
+    venue: AAAI 2019 (demo)
+    url: https://ojs.aaai.org/index.php/AAAI/article/view/5068/4941
+  - title: 'List Intersection for Web Search: Algorithms, Cost Models, and Optimization'
+    authors: 'Sunghwan Kim, Taesung Lee, Seung-won Hwang, Sameh Elnikety'
+    venue: VLDB 2019
+    url: http://www.vldb.org/pvldb/vol12/p1-kim.pdf
