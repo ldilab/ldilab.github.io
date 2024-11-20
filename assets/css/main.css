@@ -426,7 +426,8 @@ footer {
     display: flex;
     width: 48%;
     margin-bottom: 30px;
-    height: 200px;
+    height: auto;
+    flex-wrap: wrap;
 }
 
 .person-image-container {
@@ -439,6 +440,7 @@ footer {
     justify-content: center;
     align-items: center;
     transition: border-radius 0.3s ease;
+    flex-shrink: 0;
 }
 
 .person-image-container:hover {
@@ -486,17 +488,12 @@ footer {
     text-decoration: underline;
 }
 
-@counter-style thumbs {
-    system: cyclic;
-    symbols: "‣";
-    suffix: " ";
-}
-
 .person-interests {
-    list-style-type: thumbs;
+    list-style-type: "- ";
     padding: 0;
     margin: 0;
     margin-left: 15px;
+    margin-bottom: 10px;
 }
 
 @counter-style paper {
@@ -700,11 +697,6 @@ a.person-publication:hover {
         margin-right: 0;
         margin-bottom: 20px;
     }
-
-    .person-description {
-        max-width: 100%;
-    }
-
 }
 
 @media (max-width: 1024px) {
@@ -714,5 +706,32 @@ a.person-publication:hover {
 
     .person {
         width: 100%;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+
+    .person-description {
+        max-width: 100%;
+    }
+
+    .person-image-container {
+        width: 150px;
+        height: 150px;
+    }
+
+    .person-info-container {
+        padding: 12px;
+        text-align: center;
+    }
+
+    .person-moreinfo {
+        text-align: center;
+        position: relative;
+        bottom: auto;
+    }
+
+    .person-name {
+        font-size: 16px;
     }
 }
