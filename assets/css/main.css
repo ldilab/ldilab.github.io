@@ -378,8 +378,13 @@ footer {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
-    text-decoration: none;
+    text-decoration: underline transparent;
     color: var(--text-color);
+    transition: text-decoration 0.3s ease-in-out;
+}
+
+.publication-title:hover {
+    text-decoration-color: var(--text-color);
 }
 
 .publication-authors {
@@ -421,20 +426,29 @@ footer {
     display: flex;
     width: 48%;
     margin-bottom: 30px;
+    height: 200px;
 }
 
 .person-image-container {
     width: 200px;
     height: 200px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
-    overflow: hidden;
+    transition: border-radius 0.3s ease;
+}
+
+.person-image-container:hover {
+    border-radius: 0%;
 }
 
 .person-image-container img {
-    max-width: 100%;
-    max-height: 100%;
+    display: inline;
+    height: 100%;
+    width: auto;
 }
 
 .person-info-container {
@@ -472,11 +486,27 @@ footer {
     text-decoration: underline;
 }
 
+@counter-style thumbs {
+    system: cyclic;
+    symbols: "‣";
+    suffix: " ";
+}
+
 .person-interests {
-    list-style-type: none;
+    list-style-type: thumbs;
     padding: 0;
     margin: 0;
     margin-left: 15px;
+}
+
+@counter-style paper {
+    system: cyclic;
+    symbols: "📄";
+    suffix: " ";
+}
+
+.person-publications {
+    list-style-type: paper;
 }
 
 .alumni {
@@ -524,12 +554,15 @@ a.person-publication:hover {
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    position: relative;
+    border-radius: 50%;
     margin-right: 30px;
 }
 
 .photo img {
-    max-width: 100%;
-    max-height: 100%;
+    display: inline;
+    height: 100%;
+    width: auto;
 }
 
 .person-description {

@@ -98,7 +98,7 @@ sitemap: false
         {% if ppublication.size > 0 %}
             <div class="other-info">
                 <h2 class="other-category">Publications</h2>
-                <ul>
+                <ul class="person-publications">
                     {% for publication in ppublication %}
                         {% assign ppublication_detail = publication | split: "|" %}
                         {% if ppublication_detail.size > 2 %}
