@@ -1,3 +1,8 @@
+- year: 2025
+  papers:
+  - title: 'PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation'
+    authors: 'Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seungwon Hwang'
+    venue: COLING 2025
 - year: 2024
   papers:
   - title: 'Piano performance evaluation dataset with multilevel perceptual features'
