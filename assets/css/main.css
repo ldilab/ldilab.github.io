@@ -393,6 +393,15 @@ footer {
     margin-bottom: 5px;
 }
 
+.publication-authors a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.publication-authors a:hover {
+    text-decoration: underline;
+}
+
 .publication-venue {
     font-size: 15px;
     font-style: italic;
@@ -504,6 +513,15 @@ footer {
 
 .person-publications {
     list-style-type: paper;
+}
+
+.person-publication-author-link {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.person-publication-author-link:hover {
+    text-decoration: underline;
 }
 
 .alumni {

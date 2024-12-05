@@ -18,7 +18,33 @@ sitemap: true
                     {% else %}
                     <div class="publication-title">{{ publication.title }}</div>
                     {% endif %}
-                    <div class="publication-authors">{{ publication.authors }}</div>
+                    <div class="publication-authors">
+                        {% assign authorslist = publication.authors | split: ", " %}
+                        {% assign authors = "" %}
+                        {% for author in authorslist %}
+                            {% assign compareAuthor = author | downcase %}
+                            {% assign authorFound = false %}
+                            {% for person in site.people %}
+                                {% assign personName = person.name | split: ' ' | first | downcase %}
+                                {% assign personLastName = person.name | split: ' ' | last | downcase %}
+                                {% if compareAuthor contains personName and compareAuthor contains personLastName %}
+                                    {% assign authorFound = true %}
+                                    {% assign memberurl = site.url | append: site.baseurl | append: person.url %}
+                                    {% if person.position == 'Professor' %}
+                                        {% assign memberurl = 'https://seungwonh.github.io/' %}
+                                    {% endif %}
+                                    {% break %}
+                                {% endif %}
+                            {% endfor %}
+                            {% if authorFound %}
+                                {% assign authors = authors | append: '<a href="' | append: memberurl | append: '">' | append: author | append: '</a>, ' %}
+                            {% else %}
+                                {% assign authors = authors | append: author | append: ', ' %}
+                            {% endif %}
+                        {% endfor %}
+                        {% assign authors = authors | append: "@" | replace: ", @", "." %}
+                        {{ authors }}
+                    </div>
                     <div class="publication-venue">{{ publication.venue }}</div>
                 </div>
                 {% endfor %}
