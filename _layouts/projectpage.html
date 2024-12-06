@@ -1,0 +1,63 @@
+---
+layout: default
+sitemap: false
+---
+<div class="project-presentation">
+    <div class="project-header">
+        <h1 class="project-title">{{ page.paper_name }}</h1>
+        {% assign numberAffiliations = page.affiliations | size %}
+        {% assign showAffiliations = false %}
+        {% if numberAffiliations > 1 %}
+            {% assign showAffiliations = true %}
+        {% endif %}
+        <div class="project-authors">
+            {% assign authors = "" %}
+            {% for author in page.authors %}
+                {% if author.url %}
+                    {% assign authorLink = "<a href='" | append: author.url | append: "'>" | append: author.name | append: "</a>" %}
+                {% else %}
+                    {% assign authorLink = author.name %}
+                {% endif %}
+                {% if showAffiliations %}
+                    {% assign authorLink = authorLink | append: "<sup>" | append: author.affiliation | append: "</sup>" %}
+                {% endif %}
+                {% assign authors = authors | append: authorLink | append: ", " %}
+            {% endfor %}
+            {% assign authors = authors | append: "@" | replace: ", @", "." %}
+            {{ authors }}
+        </div>
+        <div class="project-affiliations">
+            {% assign affiliations = "" %}
+            {% for affiliation in page.affiliations %}
+                {% if showAffiliations %}
+                    {% assign affiliations = affiliations | append: affiliation | append: "<sup>" | append: forloop.index | append: "</sup>, " %}
+                {% else %}
+                    {% assign affiliations = affiliations | append: affiliation | append: ", " %}
+                {% endif %}
+            {% endfor %}
+            {% assign affiliations = affiliations | append: "@" | replace: ", @", "." %}
+            {{ affiliations }}
+        </div>
+        <div class="project-mails">
+            {% for author in page.authors %}
+                {% if author.mail %}
+                    <a href="mailto:{{ author.mail }}">{{ author.mail }}</a>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="project-buttons">
+            {% for button in page.buttons %}
+                <a href="{{ button.link }}" class="project-button" target="_blank">
+                    <i class="fa fa-{{ button.icon }}"></i> {{ button.name }}
+                </a>
+            {% endfor %}
+        </div>
+    </div>
+    <div class="project-content">
+        {{ content }}
+    </div>
+    <div class="project-bibtex">
+        <h3 class="bibtex-title">Cite this project.</h3>
+        <textarea class="bibtex-textbox" readonly>{{ page.bibtex }}</textarea>
+    </div>
+</div>
