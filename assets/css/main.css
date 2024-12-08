@@ -229,7 +229,6 @@ nav {
 footer {
     background-color: var(--footer-bg-color);
     padding-top: 30px;
-    padding-bottom: 80px;
 }
 
 .footer-container {
@@ -614,6 +613,7 @@ a.person-publication:hover {
 .other-category {
     font-size: 1.2rem;
     margin-bottom: 10px;
+    text-align: left;
 }
 
 .category-interests li {
@@ -664,16 +664,48 @@ a.person-publication:hover {
     font-weight: bold;
 }
 
-.project-authors,
+.project-authors {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
 .project-affiliations {
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
 
-.project-mails {
-    margin-bottom: 20px;
-    text-decoration: none;
+.project-authors a {
     color: var(--text-color);
+    text-decoration: none;
+}
+
+.project-authors a:hover {
+    text-decoration: underline;
+}
+
+.project-authors sup {
+    font-size: 0.7em;
+    margin-left: 4px;
+}
+
+.project-affiliations sup {
+    font-size: 0.7em;
+    margin-right: 4px;
+}
+
+.project-mails {
+    font-size: 1em;
+    margin-bottom: 30px;
+    color: var(--text-color);
+}
+
+.project-mails a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.project-mails a:hover {
+    text-decoration: underline;
 }
 
 .project-button {
@@ -701,29 +733,84 @@ a.person-publication:hover {
     margin-right: 5px;
 }
 
-.project-content {
-    margin-bottom: 30px;
+.project-corresponding {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    color: var(--text-color);
+    font-style: italic;
+    font-weight: bold;
 }
 
-.project-bibtex {
-    font-family: monospace;
-    padding: 1em;
-    background-color: var(--bibtex-bg-color);
+.project-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-content {
+    margin-bottom: 30px;
+    max-width: 800px;
+}
+
+.project-content h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.project-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.project-content a {
+    color: var(--text-color);
+    text-decoration: none;
+}
+
+.project-content a:hover {
+    text-decoration: underline;
+}
+.project-content img {
+    max-width: 100%;
+    margin: 0 auto 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .bibtex-title {
-    font-size: 1.5rem;
+    font-size: 1.8em;
     margin-bottom: 0.5em;
 }
 
-.bibtex-textbox {
-    width: 100%;
-    height: 200px;
-    resize: none;
-    border: none;
-    background-color: transparent;
-    color: var(--text-color);
+.project-bibtex {
+    padding: 1em;
+    background-color: var(--bibtex-bg-color);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.project-bibtex pre {
+    font-family: monospace;
+    text-align: left;
+    max-width: 80%;
+    min-width: 50%;
+    max-height: 100px;
+    overflow-x: auto;
+    overflow-y: auto;
+    background-color: var(--bg-color);
+    padding: 15px;
+}
+
+.project-bibtex pre code {
+    font-size: 0.8em;
+}
+
 /* Scrollbar styles */
 
 ::-webkit-scrollbar {
