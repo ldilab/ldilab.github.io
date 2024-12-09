@@ -18,6 +18,9 @@ sitemap: false
         {% assign last_name = page.name | split: ' ' | last %}
         <h1 class="name">{{ first_name }}, {{ last_name }} ({{ page.korean_name }})</h1>
         <div class="main-info">
+            {% if page.thesis %}
+            <p><strong>Thesis</strong>: {{ page.thesis }}</p>
+            {% endif %}
             <p>{{ page.position }}</p>
             <p>{{ page.department }}</p>
         </div>

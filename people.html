@@ -8,6 +8,9 @@ sitemap: true
     <h1 class="category">LDILab's Family</h1>
     <div class="people">
         {% for category in site.data.people %}
+        {% if category.category contains "Alumni" %}
+            {% continue %}
+        {% endif %}
         <div class="people-content">
             <div class="people-category">{{ category.category }}</div>
             <div class="people-list">
@@ -54,10 +57,14 @@ sitemap: true
             <div class="people-category-alumni">Alumni ({{ alumnis-type.type }})</div>
             <div class="people-list">
                 {% for alumni in alumnis-type.alumnis %}
-                    {% if alumni.website %}
-                    <a class="alumni" href="{{ alumni.website }}"> {{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</a>
+                    {% if alumni.profile %}
+                        <a class="alumni" href="{{ site.url }}{{ site.baseurl }}/person/{{ alumni.profile }}"> {{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</a>
                     {% else %}
-                    <div class="alumni">{{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</div>
+                        {% if alumni.website %}
+                        <a class="alumni" href="{{ alumni.website }}"> {{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</a>
+                        {% else %}
+                        <div class="alumni">{{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</div>
+                        {% endif %}
                     {% endif %}
                 {% endfor %}
             </div>

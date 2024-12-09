@@ -59,7 +59,7 @@ Content:
 short_name: <filename>
 name: Family First
 korean_name: 
-position: <M.S. Student | Integrated M.S./Ph.D. Student | Ph.D. Student | Professor> (Please respect the exact format)
+position: <M.S. Student | Integrated M.S./Ph.D. Student | Ph.D. Student | Professor | Alumni (M.S.) | Alumni (Ph.D.)> (Please respect the exact format)
 department: Department of Computer Science and Engineering
 interests:
  - "Interest 1"
@@ -70,6 +70,7 @@ mail: <your mail>
 website: [Optional] <your website>
 office: <your office>
 photo: <file name with extension under _assets/images/people>
+thesis: [Optional] <Title of your thesis>
 ---
 [Optional] Biography or whatever you want in the markdown format
 ```
@@ -83,6 +84,7 @@ To add alumnis, please head to `_data/alumnis.yml` and follow the same format as
     - name: FirstName FamilyName
       year: 20..
       website: [Optional] <URL to personal webpage>
+      profile: [Optional] If the profile in .md exists, put the name of the file here without the extension
     - name: FirstName2 FamilyName2
       year: 20..
 ```
