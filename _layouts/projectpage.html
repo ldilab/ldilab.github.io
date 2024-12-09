@@ -4,103 +4,105 @@ sitemap: false
 ---
 <div class="project-presentation">
     <div class="project-header">
-        <h1 class="project-title">{{ page.paper_name }}</h1>
-        {% assign numberAffiliations = page.affiliations | size %}
-        {% assign showAffiliations = false %}
-        {% if numberAffiliations > 1 %}
-            {% assign showAffiliations = true %}
-        {% endif %}
-        <div class="project-authors">
-            {% assign authors = "" %}
-            {% assign correspondingAuthor = false %}
-            {% assign numberOfFirstAuthor = 0 %}
-            {% for author in page.authors %}
-                {% if author.first == true %}
-                    {% assign numberOfFirstAuthor = numberOfFirstAuthor | plus: 1 %}
-                {% endif %}
-            {% endfor %}
-            {% assign seenFirstFirstAuthor = false %}
-            {% for author in page.authors %}
-                {% assign compareAuthor = author.name | downcase %}
-                {% assign authorFound = false %}
-                {% for person in site.people %}
-                    {% assign personName = person.name | split: ' ' | first | downcase %}
-                    {% assign personLastName = person.name | split: ' ' | last | downcase %}
-                    {% if compareAuthor contains personName and compareAuthor contains personLastName %}
-                        {% assign authorFound = true %}
-                        {% assign memberurl = site.url | append: site.baseurl | append: person.url %}
-                        {% if person.position == 'Professor' %}
-                            {% assign memberurl = 'https://seungwonh.github.io/' %}
-                        {% endif %}
-                        {% break %}
+        <div class="project-header-content">
+            <h1 class="project-title">{{ page.paper_name }}</h1>
+            {% assign numberAffiliations = page.affiliations | size %}
+            {% assign showAffiliations = false %}
+            {% if numberAffiliations > 1 %}
+                {% assign showAffiliations = true %}
+            {% endif %}
+            <div class="project-authors">
+                {% assign authors = "" %}
+                {% assign correspondingAuthor = false %}
+                {% assign numberOfFirstAuthor = 0 %}
+                {% for author in page.authors %}
+                    {% if author.first == true %}
+                        {% assign numberOfFirstAuthor = numberOfFirstAuthor | plus: 1 %}
                     {% endif %}
                 {% endfor %}
-                {% if author.url %}
-                    {% assign memberurl = author.url %}
-                    {% assign authorFound = true %}
-                {% endif %}
-                {% if authorFound %}
-                    {% assign authorLink = "<a href='" | append: memberurl | append: "'>" | append: author.name | append: "</a>" %}
-                {% else %}
-                    {% assign authorLink = author.name %}
-                {% endif %}
-                {% if showAffiliations %}
-                    {% assign authorLink = authorLink | append: "<sup>" | append: author.affiliation | append: "</sup>" %}
-                {% endif %}
-                {% if author.corresponding %}
-                    {% assign authorLink = authorLink | append: "*" %}
-                    {% assign correspondingAuthor = true %}
-                {% endif %}
-                
-                {% if author.first %}
-                    {% if numberOfFirstAuthor > 1 %}
-                        {% if seenFirstFirstAuthor == false %}
-                            {% assign authorLink = "{" | append: authorLink %}
-                            {% assign seenFirstFirstAuthor = true %}
+                {% assign seenFirstFirstAuthor = false %}
+                {% for author in page.authors %}
+                    {% assign compareAuthor = author.name | downcase %}
+                    {% assign authorFound = false %}
+                    {% for person in site.people %}
+                        {% assign personName = person.name | split: ' ' | first | downcase %}
+                        {% assign personLastName = person.name | split: ' ' | last | downcase %}
+                        {% if compareAuthor contains personName and compareAuthor contains personLastName %}
+                            {% assign authorFound = true %}
+                            {% assign memberurl = site.url | append: site.baseurl | append: person.url %}
+                            {% if person.position == 'Professor' %}
+                                {% assign memberurl = 'https://seungwonh.github.io/' %}
+                            {% endif %}
+                            {% break %}
                         {% endif %}
-                        {% assign numberOfFirstAuthor = numberOfFirstAuthor | minus: 1 %}
-                    {% elsif numberOfFirstAuthor == 1 and seenFirstFirstAuthor == true %}
-                        {% assign authorLink = authorLink | append: "}" %}
-                        {% assign numberOfFirstAuthor = 0 %}
+                    {% endfor %}
+                    {% if author.url %}
+                        {% assign memberurl = author.url %}
+                        {% assign authorFound = true %}
                     {% endif %}
-                {% endif %}
+                    {% if authorFound %}
+                        {% assign authorLink = "<a href='" | append: memberurl | append: "'>" | append: author.name | append: "</a>" %}
+                    {% else %}
+                        {% assign authorLink = author.name %}
+                    {% endif %}
+                    {% if showAffiliations %}
+                        {% assign authorLink = authorLink | append: "<sup>" | append: author.affiliation | append: "</sup>" %}
+                    {% endif %}
+                    {% if author.corresponding %}
+                        {% assign authorLink = authorLink | append: "*" %}
+                        {% assign correspondingAuthor = true %}
+                    {% endif %}
+                    
+                    {% if author.first %}
+                        {% if numberOfFirstAuthor > 1 %}
+                            {% if seenFirstFirstAuthor == false %}
+                                {% assign authorLink = "{" | append: authorLink %}
+                                {% assign seenFirstFirstAuthor = true %}
+                            {% endif %}
+                            {% assign numberOfFirstAuthor = numberOfFirstAuthor | minus: 1 %}
+                        {% elsif numberOfFirstAuthor == 1 and seenFirstFirstAuthor == true %}
+                            {% assign authorLink = authorLink | append: "}" %}
+                            {% assign numberOfFirstAuthor = 0 %}
+                        {% endif %}
+                    {% endif %}
 
-                {% assign authors = authors | append: authorLink | append: ", " %}
-            {% endfor %}
-            {% assign authors = authors | append: "@" | replace: ", @", "." %}
-            {{ authors }}
+                    {% assign authors = authors | append: authorLink | append: ", " %}
+                {% endfor %}
+                {% assign authors = authors | append: "@" | replace: ", @", "." %}
+                {{ authors }}
+            </div>
+            <div class="project-affiliations">
+                {% assign affiliations = "" %}
+                {% for affiliation in page.affiliations %}
+                    {% if showAffiliations %}
+                        {% assign affiliations = affiliations | append: "<sup>" | append: forloop.index | append: "</sup>" | append: affiliation | append: ", " %}
+                    {% else %}
+                        {% assign affiliations = affiliations | append: affiliation | append: ", " %}
+                    {% endif %}
+                {% endfor %}
+                {% assign affiliations = affiliations | append: "@" | replace: ", @", "." %}
+                {{ affiliations }}
+            </div>
+            <div class="project-mails">
+                {% for author in page.authors %}
+                    {% if author.mail %}
+                        <a href="mailto:{{ author.mail }}">{{ author.mail }}</a>{% if forloop.last %}{% else %}, {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </div>
+            <div class="project-buttons">
+                {% for button in page.buttons %}
+                    <a href="{{ button.link }}" class="project-button" target="_blank">
+                        <i class="fa fa-{{ button.icon }}"></i> {{ button.name }}
+                    </a>
+                {% endfor %}
+            </div>
+            {% if correspondingAuthor %}
+            <div class="project-corresponding">
+                    * Corresponding author
+            </div>
+            {% endif %}
         </div>
-        <div class="project-affiliations">
-            {% assign affiliations = "" %}
-            {% for affiliation in page.affiliations %}
-                {% if showAffiliations %}
-                    {% assign affiliations = affiliations | append: "<sup>" | append: forloop.index | append: "</sup>" | append: affiliation | append: ", " %}
-                {% else %}
-                    {% assign affiliations = affiliations | append: affiliation | append: ", " %}
-                {% endif %}
-            {% endfor %}
-            {% assign affiliations = affiliations | append: "@" | replace: ", @", "." %}
-            {{ affiliations }}
-        </div>
-        <div class="project-mails">
-            {% for author in page.authors %}
-                {% if author.mail %}
-                    <a href="mailto:{{ author.mail }}">{{ author.mail }}</a>{% if forloop.last %}{% else %}, {% endif %}
-                {% endif %}
-            {% endfor %}
-        </div>
-        <div class="project-buttons">
-            {% for button in page.buttons %}
-                <a href="{{ button.link }}" class="project-button" target="_blank">
-                    <i class="fa fa-{{ button.icon }}"></i> {{ button.name }}
-                </a>
-            {% endfor %}
-        </div>
-        {% if correspondingAuthor %}
-        <div class="project-corresponding">
-                * Corresponding author
-        </div>
-        {% endif %}
     </div>
     <div class="project-container">
         <div class="project-content">
@@ -111,22 +113,24 @@ sitemap: false
         <h3 class="bibtex-title">Cite this project.</h3>
         <pre id="bibtex-pre" onclick="selectBibtex()"><code id="bibtex-code">{{ page.bibtex }}</code></pre>
     </div>
-    </div>
+</div>
 
-    <script>
-        function selectBibtex() {
-            var bibtexCode = document.getElementById("bibtex-code");
-            var bibtexPre = document.getElementById("bibtex-pre");
-            if (document.body.createTextRange) {
-                var range = document.body.createTextRange();
-                range.moveToElementText(bibtexCode);
-                range.select();
-            } else if (window.getSelection) {
-                var selection = window.getSelection();
-                var range = document.createRange();
-                range.selectNodeContents(bibtexCode);
-                selection.removeAllRanges();
-                selection.addRange(range);
-            }
+<script>
+    function selectBibtex() {
+        var bibtexCode = document.getElementById("bibtex-code");
+        var bibtexPre = document.getElementById("bibtex-pre");
+        if (document.body.createTextRange) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(bibtexCode);
+            range.select();
+        } else if (window.getSelection) {
+            var selection = window.getSelection();
+            var range = document.createRange();
+            range.selectNodeContents(bibtexCode);
+            selection.removeAllRanges();
+            selection.addRange(range);
         }
-    </script>
+    }
+</script>
+
+<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>

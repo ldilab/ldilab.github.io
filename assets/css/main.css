@@ -656,6 +656,14 @@ a.person-publication:hover {
     padding-bottom: 15px;
     margin-bottom: 30px;
     background-color: var(--header-bg-color);
+    display: flex;
+    align-items: center;
+}
+
+.project-header-content {
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .project-title {
@@ -749,7 +757,7 @@ a.person-publication:hover {
 }
 
 .project-content {
-    margin-bottom: 30px;
+    margin-bottom: 35px;
     max-width: 800px;
 }
 
@@ -758,7 +766,11 @@ a.person-publication:hover {
     text-align: center;
 }
 
-.project-content p {
+.project-content h1:not(:first-child) {
+    margin-top: 50px;
+}
+
+.project-content p, ul, ol {
     font-size: 1.2rem;
     margin-bottom: 20px;
     text-align: justify;
@@ -920,5 +932,23 @@ a.person-publication:hover {
 
     .person-name {
         font-size: 16px;
+    }
+
+    .project-content {
+        max-width: 90%;
+        font-size: 0.8em;
+    }
+
+    .project-content img {
+        max-width: 100%;
+    }
+
+    .project-bibtex pre {
+        max-width: 90%;
+        min-width: 90%;
+    }
+
+    .project-title {
+        font-size: 2rem;
     }
 }

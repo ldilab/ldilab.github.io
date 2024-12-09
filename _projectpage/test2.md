@@ -29,6 +29,9 @@ buttons:
     - name: "Code"
       icon: "github"
       link: "https://example.com"
+    - name: "Random Button"
+      icon: "hexagon-nodes"
+      link: "https://example.com"
 ---
 
 # TL;DR
