@@ -2,7 +2,7 @@
   papers:
   - title: 'PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation'
     authors: 'Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seung-won Hwang'
-    venue: COLING 2025
+    venue: COLING 2025 (short)
 - year: 2024
   papers:
   - title: 'Piano performance evaluation dataset with multilevel perceptual features'
@@ -191,7 +191,7 @@
     url: https://doi.org/10.1145/3459637.3482077
   - title: Label, Context Augmentation for Response Selection at DSTC8
     authors: '{Myeongho Jeong, Seungtaek Choi}, Jinyoung Yeo, Seung-won Hwang'
-    venue: IEEE Transactions on Audio, Speech,, Language Processing (TASLP), 2021
+    venue: IEEE Transactions on Audio, Speech, Language Processing (TASLP), 2021
     url: https://doi.org/10.1109/TASLP.2021.3076876
   - title: Query Generation for Multimodal Documents
     authors: 'Kyungho Kim, Kyungjae Lee, Seung-won Hwang, Young-In Song, Seungwook Lee'
@@ -285,3 +285,101 @@
     authors: 'Sunghwan Kim, Taesung Lee, Seung-won Hwang, Sameh Elnikety'
     venue: VLDB 2019
     url: http://www.vldb.org/pvldb/vol12/p1-kim.pdf
+- year : 2018
+  papers:
+  - title: 'List Intersection for Web Search - Algorithms, Cost Models, and Optimizations'
+    authors: 'Sunghwan Kim, Taesung Lee, Seung-won Hwang, Sameh Elnikety'
+    venue: VLDB 2018
+    url: http://www.vldb.org/pvldb/vol12/p1-kim.pdf
+  - title: 'Machine-Translated Knowledge Transfer for Commonsense Causal Reasoning'
+    authors: 'Jinyoung Yeo, Geungyu Wang, Hyunsouk Cho, Seungtaek Choi, Seung-won Hwang'
+    venue: AAAI 2018
+    url: https://www.aaai.org/ocs/index.php/AAAI/AAAI18/paper/view/17445
+  - title: 'Cold-Start Aware User and Product Attention for Sentiment Classification'
+    authors: 'Reinald Kim Amplayo, Jihyeok Kim, Sua Sung, Seung-won Hwang'
+    venue: ACL 2018
+    url: https://aclanthology.org/P18-1236/
+  - title: 'Adversarial TableQA - Attention Supervision for Question Answering on Tables'
+    authors: 'Minseok Cho, Reinald Kim Amplayo, Seung-won Hwang, Jonghyuck Park'
+    venue: ACML 2018
+    url: http://proceedings.mlr.press/v95/cho18a.html
+  - title: 'Translations as Additional Contexts for Sentence Classification'
+    authors: 'Reinald Kim Amplayo, Kyungjae Lee, Jinyeong Yeo, Seung-won Hwang'
+    venue: IJCAI 2018
+    url: https://doi.org/10.24963/ijcai.2018/550
+  - title: 'Semi-supervised Training Data Generation for Multilingual Question Answering'
+    authors: 'Kyungjae Lee, Kyoungho Yoon, Sunghyun Park, Seung-won Hwang'
+    venue: LREC 2018
+    url: http://www.lrec-conf.org/proceedings/lrec2018/summaries/711.html
+  - title: 'Visual Choice of Plausible Alternatives - An Evaluation of Image-based Commonsense Causal Reasoning'
+    authors: Jinyoung Yeo, Gyeongbok Lee, Gengyu Wang, Seungtaek Choi, Hyunsouk Cho, Reinald Kim Amplayo, Seung-won Hwang
+    venue: LREC 2018
+    url: http://www.lrec-conf.org/proceedings/lrec2018/summaries/560.html
+  - title: 'Entity Commonsense Representation for Neural Abstractive Summarization'
+    authors: 'Reinald Kim Amplayo, Seonjae Lim, Seung-won Hwang'
+    venue: NAACL-HLT 2018
+    url: https://doi.org/10.18653/v1/n18-1064
+- year: 2017
+  papers:
+  - title: 'Efficient Keyword-Aware Representative Travel Route Recommendation'
+    authors: 'Yu Ting Wen, Jinyoung Yeo, Wen-Chih Peng, Seung-won Hwang'
+    venue: IEEE Trans. Knowl. Data Eng.
+    url: https://doi.org/10.1109/TKDE.2017.2690421
+  - title: 'Multimodal KB Harvesting for Emerging Spatial Entities'
+    authors: 'Jinyoung Yeo, Hyunsouk Cho, Jin-Woo Park, Seung-won Hwang'
+    venue: IEEE Trans. Knowl. Data Eng.
+    url: https://doi.org/10.1109/TKDE.2017.2651805
+  - title: 'Aspect Sentiment Model for Micro Reviews'
+    authors: 'Reinald Kim Amplayo, Seung-won Hwang'
+    venue: ICDM 2017
+    url: https://doi.org/10.1109/ICDM.2017.83
+  - title: 'Gradable Adjective Embedding for Commonsense Knowledge'
+    authors: 'Kyungjae Lee, Hyunsouk Cho, Seung-won Hwang'
+    venue: PAKDD 2017
+    url: https://doi.org/10.1007/978-3-319-57529-2_63
+  - title: 'Understanding Relations using Concepts and Semantics'
+    authors: 'Jouyon Park, Hyunsouk Cho, Seung-won Hwang'
+    venue: DSMM@SIGMOD 2017
+    url: https://doi.org/10.1145/3077240.3077250
+  - title: 'Predicting Online Purchase Conversion for Retargeting'
+    authors: 'Jinyoung Yeo, Sungchul Kim, Eunyee Koh, Seung-won Hwang, Nedim Lipka'
+    venue: WSDM 2017
+    url: https://doi.org/10.1145/3018661.3018715
+- year: 2016
+  papers:
+  - title: 'Cost-aware triage ranking algorithms for bug reporting systems'
+    authors: 'Jin-Woo Park, Mu-Woong Lee, Jinhan Kim, Seung-won Hwang, Sunghun Kim'
+    venue: Knowl. Inf. Syst.
+    url: https://doi.org/10.1007/s10115-015-0893-9
+  - title: 'Fine-Grained Semantic Conceptualization of FrameNet'
+    authors: 'Jin-Woo Park, Seung-won Hwang, Haixun Wang'
+    venue: AAAI 2016
+    url: http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12264
+  - title: 'Understanding Emerging Spatial Entities'
+    authors: 'Jinyoung Yeo, Jin-Woo Park, Seung-won Hwang'
+    venue: AAAI 2016
+    url: http://www.aaai.org/ocs/index.php/AAAI/AAAI16/paper/view/12327
+  - title: 'ECO - Entity-level captioning in context'
+    authors: 'Hyunsouk Cho, Seung-won Hwang'
+    venue: ASONAM 2016
+    url: https://doi.org/10.1109/ASONAM.2016.7752321
+  - title: 'Trivia quiz mining using probabilistic knowledge'
+    authors: 'Taesung Lee, Seung-won Hwang, Zhongyuan Wang'
+    venue: ASONAM 2016
+    url: https://doi.org/10.1109/ASONAM.2016.7752427
+  - title: 'Probabilistic Prototype Model for Serendipitous Property Mining'
+    authors: 'Taesung Lee, Seung-won Hwang, Zhongyuan Wang'
+    venue: COLING 2016
+    url: https://aclanthology.org/C16-1064/
+  - title: 'Event Grounding from Multimodal Social Network Fusion'
+    authors: '{Hyunsouk Cho, Jinyoung Yeo}, Seung-won Hwang'
+    venue: ICDM 2016
+    url: https://doi.org/10.1109/ICDM.2016.0099
+  - title: 'Linking, integrating, and translating entities via iterative graph matching'
+    authors: 'Taesung Lee, Seung-won Hwang'
+    venue: TAAI 2016
+    url: https://doi.org/10.1109/TAAI.2016.7880156
+  - title: 'Browsing2purchase - Online Customer Model for Sales Forecasting in an E-Commerce Site'
+    authors: 'Jinyoung Yeo, Sungchul Kim, Eunyee Koh, Seung-won Hwang, Nedim Lipka'
+    venue: WWW 2016
+    url: https://doi.org/10.1145/2872518.2889394
