@@ -11,6 +11,8 @@ plugins:
 collections:
   people:
     output: true
+  projectpage:
+    output: true
 
 defaults:
   - scope:
@@ -19,4 +21,11 @@ defaults:
     values:
       layout: "person"
       permalink: /person/:path/
-      sitemap: false
+      sitemap: true
+  - scope:
+      path: ""
+      type: "projectpage"
+    values:
+      layout: "projectpage"
+      permalink: /project/:path/
+      sitemap: true
