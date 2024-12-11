@@ -773,7 +773,7 @@ a.person-publication:hover {
 .project-content p, ul, ol {
     font-size: 1.2rem;
     margin-bottom: 20px;
-    text-align: justify;
+    text-align: left;
 }
 
 .project-content a {
