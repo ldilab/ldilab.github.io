@@ -9,7 +9,10 @@ interests:
  - Code Retrieval
 education:
  - "M.S. student in Computer Science, Seoul National University, 2023~2025"
+experience:
+ - "Staff Engineer, Samsung Research (Corporate research institute of Samsung Electronics), since 2014"
 mail: jaeseok2.yoo@snu.ac.kr
 photo: nopicture.png
 timestamp: 2023-1-3
+thesis: "Plan-As-Query Example Retrieval for Underrepresented Code Generation"
 ---

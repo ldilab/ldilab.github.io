@@ -43,6 +43,17 @@ sitemap: false
             </ul>
         </div>
 
+        {% if page.experience %}
+        <div class="other-info">
+            <h2 class="other-category">Experience</h2>
+            <ul>
+                {% for experience in page.experience %}
+                <li>{{ experience }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
         <div class="other-info">
             <h2 class="other-category">Contact</h2>
             {% if page.office %}
