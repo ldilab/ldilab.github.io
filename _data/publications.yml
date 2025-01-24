@@ -1,5 +1,8 @@
 - year: 2025
   papers:
+  - title: 'Query-focused Referentiability Learning for Zero-shot Retrieval'
+    authors: Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang
+    venue: NAACL 2025
   - title: 'PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation'
     authors: 'Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seung-won Hwang'
     venue: COLING 2025 (short)
