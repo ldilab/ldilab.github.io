@@ -48,6 +48,11 @@ They are organized as follow:
       venue: Venue 2 Year
 ```
 
+#### Project Page
+
+You have the opportunity to create a dedicated page for a project or a publication.
+Explanation will be available soon, meanwhile, you can refer to `_projectpage/` for examples.
+
 ### People
 
 Under `_people/`, each member is represented through a markdown file.
