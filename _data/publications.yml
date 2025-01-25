@@ -12,6 +12,9 @@
   - title: 'Query-focused Referentiability Learning for Zero-shot Retrieval'
     authors: Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang
     venue: NAACL 2025
+  - title: 'tRAG: Term-level Retrieval-Augmented Generation for Zero-shot Retrieval,'
+    authors: Dohyeon Lee, Jongyoon Kim, Jihyuk Kim, Seung-won Hwang, Joonsuk Park
+    venue: NAACL 2025
   - title: 'PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation'
     authors: 'Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seung-won Hwang'
     venue: COLING 2025 (short)
