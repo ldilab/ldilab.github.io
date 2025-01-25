@@ -1,5 +1,14 @@
 - year: 2025
   papers:
+  - title: 'ConvCodeWorld: Benchmarking Conversational Code Generation in Reproducible Feedback Environments'
+    authors: 'Hojae Han, Seung-won Hwang, Rajhans Samdani, Yuxiong He'
+    venue: ICLR 2025
+  - title: 'FaVe: Factored and Verified Search Rationale for Long-form Answer'
+    authors: 'Jihyuk Kim, Sungjin Lee, Seung-won Hwang, Yang Liu'
+    venue: NAACL 2025
+  - title: 'HARP: Hesitation-Aware Reframing in Transformer Inference Pass'
+    authors: 'Romain Storaï, Seung-won Hwang'
+    venue: NAACL 2025
   - title: 'Query-focused Referentiability Learning for Zero-shot Retrieval'
     authors: Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang
     venue: NAACL 2025
