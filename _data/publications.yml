@@ -18,9 +18,15 @@
   - title: 'Query-focused Referentiability Learning for Zero-shot Retrieval'
     authors: Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang
     venue: NAACL 2025
-  - title: 'tRAG: Term-level Retrieval-Augmented Generation for Zero-shot Retrieval,'
+  - title: 'tRAG: Term-level Retrieval-Augmented Generation for Zero-shot Retrieval'
     authors: Dohyeon Lee, Jongyoon Kim, Jihyuk Kim, Seung-won Hwang, Joonsuk Park
     venue: NAACL 2025
+  - title: 'Query Variant Detection Using Retriever as Environment'
+    authors: {Minji Seo, Youngwon Lee}, Seung-won Hwang, Seoho Song, Hee-Cheol Seo, Young-In Song
+    venue: NAACL 2025 (industry track)
+  - title: 'PLEX: Adaptive Parameter-Efficient Fine-Tuning for Code LLMs using Lottery-Tickets'
+    authors: {Jaeseong Lee, Hojae Han}, Jongyoon Kim, Seung-won Hwang, Naun Kang, KyungJun An, Sungho Jang
+    venue: NAACL 2025 (industry track)
   - title: 'Inference Scaling for Bridging Retrieval and Augmented Generation'
     authors: 'Youngwon Lee, Seung-won Hwang, Daniel Campos, Filip Graliński, Zhewei Yao, Yuxiong He'
     venue: Findings of NAACL 2025
