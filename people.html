@@ -52,18 +52,27 @@ sitemap: true
         {% endfor %}
 
         
-        {% for alumnis-type in site.data.alumnis %}
+        {% for alumnis-type in site.data.alumni %}
         <div class="people-content">
             <div class="people-category-alumni">Alumni ({{ alumnis-type.type }})</div>
             <div class="people-list">
-                {% for alumni in alumnis-type.alumnis %}
-                    {% if alumni.profile %}
-                        <a class="alumni" href="{{ site.url }}{{ site.baseurl }}/person/{{ alumni.profile }}"> {{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</a>
+                {% for alumnus in alumnis-type.alumni %}
+                    {% if alumnus.profile %}
+                        <a class="alumni" href="{{ site.url }}{{ site.baseurl }}/person/{{ alumnus.profile }}">
+                            {{ alumnus.name }}, {{ alumnis-type.type }} ({{ alumnus.year }})
+                            {% if alumnus.extras %} (→ {{ alumnus.extras }}){% endif %}
+                        </a>
                     {% else %}
-                        {% if alumni.website %}
-                        <a class="alumni" href="{{ alumni.website }}"> {{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</a>
+                        {% if alumnus.website %}
+                            <a class="alumni" href="{{ alumnus.website }}">
+                                {{ alumnus.name }}, {{ alumnis-type.type }} ({{ alumnus.year }})
+                                {% if alumnus.extras %} (→ {{ alumnus.extras }}){% endif %}
+                            </a>
                         {% else %}
-                        <div class="alumni">{{ alumni.name }}, {{ alumnis-type.type }} ({{ alumni.year }})</div>
+                            <div class="alumni">
+                                {{ alumnus.name }}, {{ alumnis-type.type }} ({{ alumnus.year }})
+                                {% if alumnus.extras %} (→ {{ alumnus.extras }}){% endif %}
+                            </div>
                         {% endif %}
                     {% endif %}
                 {% endfor %}

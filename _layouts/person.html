@@ -14,9 +14,9 @@ sitemap: false
         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/people/{{ page.photo }}" alt="{{ page.name }}">
     </div>
     <div class="person-description">
-        {% assign first_name = page.name | split: ' ' | first %}
-        {% assign last_name = page.name | split: ' ' | last %}
-        <h1 class="name">{{ first_name }}, {{ last_name }} ({{ page.korean_name }})</h1>
+        {% assign last_name = page.name | split: ' ' | first %}
+        {% assign first_name = page.name | split: ' ' | last %}
+        <h1 class="name">{{ last_name }}, {{ first_name }} ({{ page.korean_name }})</h1>
         <div class="main-info">
             {% if page.thesis %}
             <p><strong>Thesis</strong>: {{ page.thesis }}</p>
@@ -73,15 +73,32 @@ sitemap: false
         </div>
 
         {% assign alpha_chars = "abcdefghijklmnopqrstuvwxyzï" | split: "" %}
-        {% assign pubname = last_name | append: " " | append: first_name | downcase %}
+        {% assign pubname = first_name | append: " " | append: last_name | downcase %}
+
+        {% assign alt_names = page.alt_names | default: "" %}
         {% assign ppublication = "" %}
         {% for publications-year in site.data.publications %}
             {% for publication in publications-year.papers %}
                 {% assign authorslist = publication.authors | split: ", " %}
                 {% assign authors = "" %}
+                
                 {% for author in authorslist %}
                     {% assign lcaseauthor = author | downcase %}
+                    
+                    {% assign match_found = false %}
                     {% if lcaseauthor contains pubname %}
+                        {% assign match_found = true %}
+                    {% else %}
+                        {% for alt_name in alt_names %}
+                            {% assign alt_name_downcase = alt_name | downcase %}
+                            {% if lcaseauthor contains alt_name_downcase %}
+                                {% assign match_found = true %}
+                                {% break %}
+                            {% endif %}
+                        {% endfor %}
+                    {% endif %}
+                    
+                    {% if match_found %}
                         {% assign chars = author | split: "" %}
                         {% for char in chars %}
                             {% assign lowerchar = char | downcase %}
@@ -121,14 +138,26 @@ sitemap: false
                     {% endif %}
                 {% endfor %}
 
-
                 {% assign authors = newAuthors | append: "@" | replace: ", @", "." %}
                 {% assign downcasedauthors = publication.authors | downcase %}
+                {% assign match_found = false %}
                 {% if downcasedauthors contains pubname %}
+                    {% assign match_found = true %}
+                {% else %}
+                    {% for alt_name in alt_names %}
+                        {% assign alt_name_downcase = alt_name | downcase %}
+                        {% if downcasedauthors contains alt_name_downcase %}
+                            {% assign match_found = true %}
+                            {% break %}
+                        {% endif %}
+                    {% endfor %}
+                {% endif %}
+
+                {% if match_found %}
                     {% if publication.url %}
-                        {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: "|" | append: authors |append: "|" | append: publication.url | append: ";;" %}
+                        {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: "|" | append: authors | append: "|" | append: publication.url | append: ";;" %}
                     {% else %}
-                        {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue |append: "|" | append: authors | append: ";;" %}
+                        {% assign ppublication = ppublication | append: publication.title | append: "|" | append: publication.venue | append: "|" | append: authors | append: ";;" %}
                     {% endif %}
                 {% endif %}
             {% endfor %}
@@ -144,7 +173,7 @@ sitemap: false
                         {% if ppublication_detail.size > 2 %}
                             <li><a class="person-publication" href="{{ ppublication_detail[3] }}">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span><br><em>{{ ppublication_detail[2] }}</em></li>
                         {% else %}       
-                        <li><a class="person-publication" href="{{ site.url }}{{ site.baseurl }}/publications">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span><br><em>{{ ppublication_detail[2] }}</em></li>
+                            <li><a class="person-publication" href="{{ site.url }}{{ site.baseurl }}/publications">{{ ppublication_detail[0] }}</a>, <span class="person-pub-venue">{{ ppublication_detail[1] }}</span><br><em>{{ ppublication_detail[2] }}</em></li>
                         {% endif %}
                     {% endfor %}
                 </ul>

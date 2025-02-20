@@ -6,7 +6,7 @@ position: Integrated M.S./Ph.D. Student
 department: Department of Computer Science and Engineering
 interests:
  - "Conditional text generation"
- - "Retrieval augmented generation"
+ - "Retrieval-augmented generation"
 education:
  - Ph.D. student in Computer Science, Seoul National University, 2022-Present
  - B.S. in Computer Science, Seoul National University, 2022

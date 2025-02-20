@@ -3,33 +3,33 @@
   - title: 'ConvCodeWorld: Benchmarking Conversational Code Generation in Reproducible Feedback Environments'
     authors: 'Hojae Han, Seung-won Hwang, Rajhans Samdani, Yuxiong He'
     venue: ICLR 2025
-  - title: 'FaVe: Factored and Verified Search Rationale for Long-form Answer'
-    authors: 'Jihyuk Kim, Sungjin Lee, Seung-won Hwang, Yang Liu'
-    venue: NAACL 2025
-  - title: 'HARP: Hesitation-Aware Reframing in Transformer Inference Pass'
-    authors: 'Romain Storaï, Seung-won Hwang'
+  - title: 'Query-focused Referentiability Learning for Zero-shot Retrieval'
+    authors: 'Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang'
     venue: NAACL 2025
   - title: 'PROM: Pivoted and Regulated Optimization for Multilingual Instruction Learning'
     authors: 'Jaeseong Lee, Seung-won Hwang, Hojin Lee, Yunju Bak, Changmin Lee'
     venue: NAACL 2025
-  - title: 'Query-focused Referentiability Learning for Zero-shot Retrieval'
-    authors: 'Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang'
+  - title: 'FaVe: Factored and Verified Search Rationale for Long-form Answer'
+    authors: 'Jihyuk Kim, Sungjin Lee, Seung-won Hwang, Yang Liu'
     venue: NAACL 2025
   - title: 'tRAG: Term-level Retrieval-Augmented Generation for Zero-shot Retrieval'
     authors: 'Dohyeon Lee, Jongyoon Kim, Jihyuk Kim, Seung-won Hwang, Joonsuk Park'
     venue: NAACL 2025
-  - title: 'Query Variant Detection Using Retriever as Environment'
-    authors: '{Minji Seo, Youngwon Lee}, Seung-won Hwang, Seoho Song, Hee-Cheol Seo, Young-In Song'
-    venue: NAACL 2025 (industry track)
-  - title: 'PLEX: Adaptive Parameter-Efficient Fine-Tuning for Code LLMs using Lottery-Tickets'
-    authors: '{Jaeseong Lee, Hojae Han}, Jongyoon Kim, Seung-won Hwang, Naun Kang, KyungJun An, Sungho Jang'
-    venue: NAACL 2025 (industry track)
+  - title: 'HARP: Hesitation-Aware Reframing in Transformer Inference Pass'
+    authors: 'Romain Storaï, Seung-won Hwang'
+    venue: NAACL 2025
   - title: 'CORD: Balancing COnsistency and Rank Distillation for Robust Retrieval-Augmented Generation'
     authors: 'Youngwon Lee, Seung-won Hwang, Daniel Campos, Filip Graliński, Zhewei Yao, Yuxiong He'
     venue: NAACL 2025 (short)
   - title: 'Inference Scaling for Bridging Retrieval and Augmented Generation'
     authors: 'Youngwon Lee, Seung-won Hwang, Daniel Campos, Filip Graliński, Zhewei Yao, Yuxiong He'
     venue: Findings of NAACL 2025
+  - title: 'Query Variant Detection Using Retriever as Environment'
+    authors: '{Minji Seo, Youngwon Lee}, Seung-won Hwang, Seoho Song, Hee-Cheol Seo, Young-In Song'
+    venue: NAACL 2025 (Industry Track)
+  - title: 'PLEX: Adaptive Parameter-Efficient Fine-Tuning for Code LLMs using Lottery-Tickets'
+    authors: '{Jaeseong Lee, Hojae Han}, Jongyoon Kim, Seung-won Hwang, Naun Kang, KyungJun An, Sungho Jang'
+    venue: NAACL 2025 (Industry Track)
   - title: 'PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation'
     authors: 'Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seung-won Hwang'
     venue: COLING 2025 (short)
@@ -88,16 +88,16 @@
     authors: Jaeseong Lee, Dohyeon Lee, Seung-won Hwang
     venue: NAACL 2024
     url: https://aclanthology.org/2024.naacl-long.357.pdf
-  - title: 'COMMIT: Code-Mixing English-Centric Large Language Model for Multilingual
-      Instruction Tuning'
-    authors: Jaeseong Lee, YeonJoon Jung, Seung-won Hwang
-    venue: Findings of NAACL 2024 (short)
-    url: https://aclanthology.org/2024.findings-naacl.198.pdf
   - title: 'ContrastiveMix: Overcoming Code-Mixing Dilemma in Cross-Lingual Transfer
       for Information Retrieval'
     authors: Junggeun Do, Jaeseong Lee, Seung-won Hwang
     venue: NAACL 2024 (short)
     url: https://aclanthology.org/2024.naacl-short.17.pdf
+  - title: 'COMMIT: Code-Mixing English-Centric Large Language Model for Multilingual
+      Instruction Tuning'
+    authors: Jaeseong Lee, YeonJoon Jung, Seung-won Hwang
+    venue: Findings of NAACL 2024 (short)
+    url: https://aclanthology.org/2024.findings-naacl.198.pdf
   - title: Chaining Event Spans for Temporal Relation Grounding
     authors: Jongho Kim, Dohyeon Lee, Minsoo Kim, Seung-won Hwang
     venue: EACL 2024
@@ -212,7 +212,7 @@
     authors: Jihyuk Kim, Young-In Song, Seung-won Hwang
     venue: SIGIR 2021 (short)
     url: https://doi.org/10.1145/3404835.3463067
-  - title: SCOPA - Soft Code-Switching, Pairwise Alignment for Zero-Shot Cross-lingual Transfer
+  - title: 'SCOPA: Soft Code-Switching, Pairwise Alignment for Zero-Shot Cross-lingual Transfer'
     authors: '{Dohyeon Lee, Jaeseong Lee}, Gyewon Lee, Byung-Gon Chun, Seung-won Hwang'
     venue: CIKM 2021 (short)
     url: https://doi.org/10.1145/3459637.3482176
