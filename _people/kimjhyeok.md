@@ -2,6 +2,8 @@
 short_name: kimjh
 name: Kim Jihyuk
 korean_name: 김지혁
+alt_names:
+  - "Jihyeok Kim"
 position: Integrated M.S./Ph.D. Student
 department: Department of Computer Science and Engineering
 interests:
@@ -10,7 +12,7 @@ interests:
  - Structures in Texts, Metadata for Text Understanding
  - Keyphrase Extraction/Generation
 education:
- - Ph.D. student in Computer Science, Yonsei University, 2019-Present
+ - Ph.D. in Computer Science, Yonsei University, 2025
  - B.S. in Computer Science, Yonsei University, 2019
 mail: jihyukkim@yonsei.ac.kr
 website: "https://jihyukkim-nlp.github.io/"
