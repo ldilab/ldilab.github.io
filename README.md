@@ -89,10 +89,12 @@ To add alumnis, please head to `_data/alumnis.yml` and follow the same format as
     - name: FirstName FamilyName
       year: 20..
       website: [Optional] <URL to personal webpage>
-      profile: [Optional] If the profile in .md exists, put the name of the file here without the extension
+      profile: [Optional] If the profile in .md (folder _people/) exists, put the name of the file here without the .md extension
     - name: FirstName2 FamilyName2
       year: 20..
 ```
+*From 2025*, the profile should be filled as every member has a dedicated page. If a profile is given, the link will automatically be made to the profile page. 
+Make sure to change the position of the person to `Alumni (M.S.)` or `Alumni (Ph.D.)` in the profile page!
 
 ## Website Info
 

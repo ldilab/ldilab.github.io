@@ -2,7 +2,7 @@
 short_name: yoojs
 name: Yoo Jaeseok
 korean_name: 유재석
-position: M.S. Student
+position: Alumni (M.S.)
 department: Department of Computer Science and Engineering
 interests:
  - Code Generation

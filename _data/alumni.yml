@@ -2,7 +2,7 @@
   alumni:
     - name: Jihyuk Kim
       year: 2025
-      website: "https://jihyukkim-nlp.github.io/"
+      profile: kimjhyeok
     - name: Seungtaek Choi
       year: 2022
       website: "https://hist0613.github.io/"
@@ -41,9 +41,10 @@
   alumni:
     - name: Romain Storaï
       year: 2025
-      website: "https://rstr.fr/"
+      profile: storair
     - name: Jaeseok Yoo
       year: 2025
+      profile: yoojs
     - name: Myeongho Jung
       year: 2022
     - name: Hoyoung Kim
