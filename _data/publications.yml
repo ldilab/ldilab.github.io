@@ -9,9 +9,6 @@
   - title: 'PROM: Pivoted and Regulated Optimization for Multilingual Instruction Learning'
     authors: 'Jaeseong Lee, Seung-won Hwang, Hojin Lee, Yunju Bak, Changmin Lee'
     venue: NAACL 2025
-  - title: 'FaVe: Factored and Verified Search Rationale for Long-form Answer'
-    authors: 'Jihyuk Kim, Sungjin Lee, Seung-won Hwang, Yang Liu'
-    venue: NAACL 2025
   - title: 'tRAG: Term-level Retrieval-Augmented Generation for Zero-shot Retrieval'
     authors: 'Dohyeon Lee, Jongyoon Kim, Jihyuk Kim, Seung-won Hwang, Joonsuk Park'
     venue: NAACL 2025
