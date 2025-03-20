@@ -5,9 +5,8 @@ korean_name: 이재성
 position: Ph.D. Student
 department: Department of Computer Science and Engineering
 interests:
- - "Low-resource Languages"
- - "Multilingual"
- - "LLM Optimization"
+ - "Low-resource Languages & Multilingual"
+ - "LLM Inference Optimization"
 education:
  - Ph.D. student in Computer Science, Seoul National University, 2021-Present
  - M.S. in Computer Science, Seoul National University, 2021
