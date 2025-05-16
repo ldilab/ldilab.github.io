@@ -3,30 +3,39 @@
   - title: 'ConvCodeWorld: Benchmarking Conversational Code Generation in Reproducible Feedback Environments'
     authors: 'Hojae Han, Seung-won Hwang, Rajhans Samdani, Yuxiong He'
     venue: ICLR 2025
+    url: https://arxiv.org/pdf/2502.19852
   - title: 'Query-focused Referentiability Learning for Zero-shot Retrieval'
     authors: 'Jaeyoung Kim, Dohyeon Lee, Seung-won Hwang'
     venue: NAACL 2025
+    url: https://aclanthology.org/2025.naacl-long.276.pdf
   - title: 'PROM: Pivoted and Regulated Optimization for Multilingual Instruction Learning'
     authors: 'Jaeseong Lee, Seung-won Hwang, Hojin Lee, Yunju Bak, Changmin Lee'
     venue: NAACL 2025
+    url: https://aclanthology.org/2025.naacl-short.19.pdf
   - title: 'tRAG: Term-level Retrieval-Augmented Generation for Zero-shot Retrieval'
     authors: 'Dohyeon Lee, Jongyoon Kim, Jihyuk Kim, Seung-won Hwang, Joonsuk Park'
     venue: NAACL 2025
+    url: https://aclanthology.org/2025.naacl-long.334.pdf
   - title: 'HARP: Hesitation-Aware Reframing in Transformer Inference Pass'
     authors: 'Romain Storaï, Seung-won Hwang'
     venue: NAACL 2025
+    url: https://aclanthology.org/2025.naacl-long.612.pdf
   - title: 'CORD: Balancing COnsistency and Rank Distillation for Robust Retrieval-Augmented Generation'
     authors: 'Youngwon Lee, Seung-won Hwang, Daniel Campos, Filip Graliński, Zhewei Yao, Yuxiong He'
     venue: NAACL 2025 (short)
+    url: https://aclanthology.org/2025.naacl-short.66.pdf
   - title: 'Inference Scaling for Bridging Retrieval and Augmented Generation'
     authors: 'Youngwon Lee, Seung-won Hwang, Daniel Campos, Filip Graliński, Zhewei Yao, Yuxiong He'
     venue: Findings of NAACL 2025
+    url: https://aclanthology.org/2025.findings-naacl.409.pdf
   - title: 'Query Variant Detection Using Retriever as Environment'
     authors: '{Minji Seo, Youngwon Lee}, Seung-won Hwang, Seoho Song, Hee-Cheol Seo, Young-In Song'
     venue: NAACL 2025 (Industry Track)
+    url: https://aclanthology.org/2025.naacl-industry.54.pdf
   - title: 'PLEX: Adaptive Parameter-Efficient Fine-Tuning for Code LLMs using Lottery-Tickets'
     authors: '{Jaeseong Lee, Hojae Han}, Jongyoon Kim, Seung-won Hwang, Naun Kang, KyungJun An, Sungho Jang'
     venue: NAACL 2025 (Industry Track)
+    url: https://aclanthology.org/2025.naacl-industry.60.pdf
   - title: 'PERC: Plan-As-Query Example Retrieval for Underrepresented Code Generation'
     authors: 'Jaeseok Yoo, Hojae Han, Youngwon Lee, Jaejin Kim, Seung-won Hwang'
     venue: COLING 2025 (short)
