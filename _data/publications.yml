@@ -1,5 +1,26 @@
 - year: 2025
   papers:
+  - title: 'Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models'
+    authors: 'Author1, Author2, Author3'
+    venue: ACL 2025
+  - title: 'RoToR: Towards More Reliable Responses for Order-Invariant Inputs'
+    authors: 'Author1, Author2, Author3'
+    venue: ACL 2025
+  - title: 'STUN: Structured-Then-Unstructured Pruning for Scalable MoE Pruning'
+    authors: 'Author1, Author2, Author3'
+    venue: ACL 2025
+  - title: 'ECoRAG: Evidentiality-guided Compression for Long Context RAG'
+    authors: 'Author1, Author2, Author3'
+    venue: Findings of ACL 2025
+  - title: 'Tree-of-Prompts: Abstracting Control-Flow for Prompt Optimization'
+    authors: 'Author1, Author2, Author3'
+    venue: Findings of ACL 2025
+  - title: 'FaVe: Factored and Verified Search Rationale for Long-form Answer'
+    authors: 'Author1, Author2, Author3'
+    venue: Findings of ACL 2025
+  - title: 'Smarter, Not Harder: Training-Free Adaptive Computation for Transformers'
+    authors: 'Author1, Author2, Author3'
+    venue: Findings of ACL 2025
   - title: 'ConvCodeWorld: Benchmarking Conversational Code Generation in Reproducible Feedback Environments'
     authors: 'Hojae Han, Seung-won Hwang, Rajhans Samdani, Yuxiong He'
     venue: ICLR 2025
