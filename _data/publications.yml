@@ -6,6 +6,7 @@
   - title: 'RoToR: Towards More Reliable Responses for Order-Invariant Inputs'
     authors: 'Soyoung Yoon, Dongha Ahn, Youngwon Lee, Minkyu Jung, HyungJoo Jang, Seung-won Hwang'
     venue: ACL 2025
+    url: https://arxiv.org/pdf/2502.08662
   - title: 'STUN: Structured-Then-Unstructured Pruning for Scalable MoE Pruning'
     authors: 'Jaeseong Lee, Seung-won Hwang, Aurick Qiao, Daniel Campos, Zhewei Yao, Yuxiong He'
     venue: ACL 2025
