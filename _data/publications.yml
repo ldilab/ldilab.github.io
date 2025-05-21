@@ -4,19 +4,19 @@
     authors: 'Jongho Kim, Seung-won Hwang'
     venue: ACL 2025 (short)
   - title: 'RoToR: Towards More Reliable Responses for Order-Invariant Inputs'
-    authors: 'Author1, Author2, Author3'
+    authors: 'Soyoung Yoon, Dongha Ahn, Youngwon Lee, Minkyu Jung, HyungJoo Jang, Seung-won Hwang'
     venue: ACL 2025
   - title: 'STUN: Structured-Then-Unstructured Pruning for Scalable MoE Pruning'
-    authors: 'Author1, Author2, Author3'
+    authors: 'Jaeseong Lee, Seung-won Hwang, Aurick Qiao, Daniel Campos, Zhewei Yao, Yuxiong He'
     venue: ACL 2025
   - title: 'ECoRAG: Evidentiality-guided Compression for Long Context RAG'
     authors: 'Yeonseok Jeong, Jinsu Kim, Dohyeon Lee, Seung-won Hwang'
     venue: Findings of ACL 2025
   - title: 'Tree-of-Prompts: Abstracting Control-Flow for Prompt Optimization'
-    authors: 'Author1, Author2, Author3'
+    authors: 'Jihyuk Kim, Shubham Garg, Lahari Poddar, Seung-won Hwang, Christopher Hench'
     venue: Findings of ACL 2025
   - title: 'FaVe: Factored and Verified Search Rationale for Long-form Answer'
-    authors: 'Author1, Author2, Author3'
+    authors: 'Jihyuk Kim, Sungjin Lee, Seung-won Hwang, Yang Liu'
     venue: Findings of ACL 2025
   - title: 'Smarter, Not Harder: Training-Free Adaptive Computation for Transformers'
     authors: 'Author1, Author2, Author3'
