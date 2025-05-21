@@ -19,7 +19,7 @@
     authors: 'Jihyuk Kim, Sungjin Lee, Seung-won Hwang, Yang Liu'
     venue: Findings of ACL 2025
   - title: 'Smarter, Not Harder: Training-Free Adaptive Computation for Transformers'
-    authors: 'Author1, Author2, Author3'
+    authors: '{Romain Storaï, Jaeseong Lee}, Seung-won Hwang'
     venue: Findings of ACL 2025
   - title: 'ConvCodeWorld: Benchmarking Conversational Code Generation in Reproducible Feedback Environments'
     authors: 'Hojae Han, Seung-won Hwang, Rajhans Samdani, Yuxiong He'
