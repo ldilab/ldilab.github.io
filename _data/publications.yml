@@ -1,8 +1,13 @@
 - year: 2025
   papers:
-  - title: 'From Token to Action: State Machine Reasoning to Mitigate Overthinking in Information Retrievar'
+  - title: 'Agent-as-Judge for Factual Summarization of Long Narratives'
+    authors: 'Yeonseok Jeong, Minsoo Kim, Seung-won Hwang, Byung-Hak Kim'
+    venue: EMNLP 2025
+    url: https://arxiv.org/pdf/2501.09993
+  - title: 'From Token to Action: State Machine Reasoning to Mitigate Overthinking in Information Retrieval'
     authors: 'Dohyeon Lee, Yeonseok Jeong, Seung-won Hwang'
     venue: Findings of EMNLP 2025
+    url: https://arxiv.org/pdf/2505.23059
   - title: 'Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models'
     authors: 'Jongho Kim, Seung-won Hwang'
     venue: ACL 2025 (short)
@@ -16,6 +21,7 @@
   - title: 'ECoRAG: Evidentiality-guided Compression for Long Context RAG'
     authors: 'Yeonseok Jeong, Jinsu Kim, Dohyeon Lee, Seung-won Hwang'
     venue: Findings of ACL 2025
+    url: https://aclanthology.org/2025.findings-acl.1365.pdf
   - title: 'Tree-of-Prompts: Abstracting Control-Flow for Prompt Optimization'
     authors: 'Jihyuk Kim, Shubham Garg, Lahari Poddar, Seung-won Hwang, Christopher Hench'
     venue: Findings of ACL 2025
