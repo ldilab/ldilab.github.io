@@ -2,7 +2,7 @@
 short_name: hanhj
 name: Han Hojae
 korean_name: 한호재
-position: Ph.D. Student
+position: Alumni (Ph.D.)
 department: Department of Computer Science and Engineering
 interests:
  - "Code Generation"
