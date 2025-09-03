@@ -1,5 +1,7 @@
 - name: Professor
   category: Faculty
+- name: Postdoctoral Researcher
+  category: Postdoctoral Researchers
 - name: Ph.D. Student
   category: Ph.D. Students
 - name: Integrated M.S./Ph.D. Student
