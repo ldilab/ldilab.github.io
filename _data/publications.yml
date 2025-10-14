@@ -1,5 +1,9 @@
 - year: 2025
   papers:
+  - title: 'AcuRank: Uncertainty-Aware Adaptive Computation for Listwise Reranking'
+    authors: '{Soyoung Yoon, Gyuwan Kim}, Gyu-Hwung Cho, Seung-won Hwang'
+    venue: NeurIPS 2025
+    url: https://arxiv.org/pdf/2505.18512
   - title: 'Agent-as-Judge for Factual Summarization of Long Narratives'
     authors: 'Yeonseok Jeong, Minsoo Kim, Seung-won Hwang, Byung-Hak Kim'
     venue: EMNLP 2025
@@ -8,16 +12,28 @@
     authors: 'Dohyeon Lee, Yeonseok Jeong, Seung-won Hwang'
     venue: Findings of EMNLP 2025
     url: https://arxiv.org/pdf/2505.23059
+  - title: 'CoEx – Co-evolving World-model and Exploration'
+    authors: 'Minsoo Kim, Seung-won Hwang'
+    venue: Findings of EMNLP 2025
+    url: https://www.arxiv.org/pdf/2507.22281
+  - title: 'Overcoming Source Object Grounding for Semantic Image Editing'
+    authors: 'Yeonjoon Jung, Seungtaek Choi, Seung-won Hwang'
+    venue: TACL 2025
+  - title: 'TALE: Token-Adaptive Low-Rank KVCache Approximation with Reconstruction Elimination'
+    authors: 'Jaeseong Lee, Seung-won Hwang, Aurick Qiao, Daniel F Campos, Zhewei Yao, Yuxiong He'
+    venue: TACL 2025
   - title: 'Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models'
     authors: 'Jongho Kim, Seung-won Hwang'
     venue: ACL 2025 (short)
+    url: https://aclanthology.org/2025.acl-short.97.pdf
   - title: 'RoToR: Towards More Reliable Responses for Order-Invariant Inputs'
     authors: 'Soyoung Yoon, Dongha Ahn, Youngwon Lee, Minkyu Jung, HyungJoo Jang, Seung-won Hwang'
     venue: ACL 2025
-    url: https://arxiv.org/pdf/2502.08662
+    url: https://aclanthology.org/2025.acl-long.918.pdf
   - title: 'STUN: Structured-Then-Unstructured Pruning for Scalable MoE Pruning'
     authors: 'Jaeseong Lee, Seung-won Hwang, Aurick Qiao, Daniel Campos, Zhewei Yao, Yuxiong He'
     venue: ACL 2025
+    url: https://aclanthology.org/2025.acl-long.671.pdf
   - title: 'ECoRAG: Evidentiality-guided Compression for Long Context RAG'
     authors: 'Yeonseok Jeong, Jinsu Kim, Dohyeon Lee, Seung-won Hwang'
     venue: Findings of ACL 2025
@@ -25,12 +41,15 @@
   - title: 'Tree-of-Prompts: Abstracting Control-Flow for Prompt Optimization'
     authors: 'Jihyuk Kim, Shubham Garg, Lahari Poddar, Seung-won Hwang, Christopher Hench'
     venue: Findings of ACL 2025
+    url: https://aclanthology.org/2025.findings-acl.995.pdf
   - title: 'FaVe: Factored and Verified Search Rationale for Long-form Answer'
     authors: 'Jihyuk Kim, Sungjin Lee, Seung-won Hwang, Yang Liu'
     venue: Findings of ACL 2025
+    url: https://aclanthology.org/2025.findings-acl.993.pdf
   - title: 'Smarter, Not Harder: Training-Free Adaptive Computation for Transformers'
     authors: '{Romain Storaï, Jaeseong Lee}, Seung-won Hwang'
     venue: Findings of ACL 2025
+    url: https://aclanthology.org/2025.findings-acl.426.pdf
   - title: 'ConvCodeWorld: Benchmarking Conversational Code Generation in Reproducible Feedback Environments'
     authors: 'Hojae Han, Seung-won Hwang, Rajhans Samdani, Yuxiong He'
     venue: ICLR 2025
