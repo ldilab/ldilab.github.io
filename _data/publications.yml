@@ -20,7 +20,7 @@
     authors: 'Yeonjoon Jung, Seungtaek Choi, Seung-won Hwang'
     venue: TACL 2025
   - title: 'TALE: Token-Adaptive Low-Rank KVCache Approximation with Reconstruction Elimination'
-    authors: 'Jaeseong Lee, Seung-won Hwang, Aurick Qiao, Daniel F Campos, Zhewei Yao, Yuxiong He'
+    authors: 'Jaeseong Lee, Seung-won Hwang, Aurick Qiao, Daniel Campos, Zhewei Yao, Yuxiong He'
     venue: TACL 2025
   - title: 'Counterfactual-Consistency Prompting for Relative Temporal Understanding in Large Language Models'
     authors: 'Jongho Kim, Seung-won Hwang'
