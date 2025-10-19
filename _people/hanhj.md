@@ -8,7 +8,7 @@ interests:
  - "Code Generation"
  - "Code Search"
 education:
- - Ph.D. student in Computer Science, Seoul National University, 2021-Present
+ - Ph.D. in Computer Science, Seoul National University, 2021-Present
  - M.S. in Computer Science, Yonsei University, 2021
  - B.S. in Computer Science, Yonsei University, 2018
 mail: stovecat@snu.ac.kr
