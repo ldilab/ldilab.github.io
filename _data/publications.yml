@@ -1,3 +1,9 @@
+- year: 2026
+  papers:
+  - title: 'On Listwise Reranking for Corpus Feedback'
+    authors: 'Soyoung Yoon, Jongho Kim, Daeyong Kwon, Avishek Anand, Seung-won Hwang'
+    venue: WSDM 2026 (short)
+    url: https://arxiv.org/pdf/2510.00887
 - year: 2025
   papers:
   - title: 'AcuRank: Uncertainty-Aware Adaptive Computation for Listwise Reranking'
