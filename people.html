@@ -8,7 +8,8 @@ sitemap: true
     <h1 class="category">LDILab's Family</h1>
     <div class="people">
         {% for category in site.data.people %}
-        {% if category.category contains "Alumni" %}
+        {% assign cat = category.category | downcase %}
+        {% if cat contains "alum" %}
             {% continue %}
         {% endif %}
         <div class="people-content">
@@ -52,26 +53,26 @@ sitemap: true
         {% endfor %}
 
         
-        {% for alumnis-type in site.data.alumni %}
+        {% for alum-type in site.data.alumni %}
         <div class="people-content">
-            <div class="people-category-alumni">Alumni ({{ alumnis-type.type }})</div>
+            <div class="people-category-alumni">{{ alum-type.type }} Alumni</div>
             <div class="people-list">
-                {% for alumnus in alumnis-type.alumni %}
-                    {% if alumnus.profile %}
-                        <a class="alumni" href="{{ site.url }}{{ site.baseurl }}/person/{{ alumnus.profile }}">
-                            {{ alumnus.name }}, {{ alumnis-type.type }} ({{ alumnus.year }})
-                            {% if alumnus.extras %} (→ {{ alumnus.extras }}){% endif %}
+                {% for alum in alum-type.alumni %}
+                    {% if alum.profile %}
+                        <a class="alumni" href="{{ site.url }}{{ site.baseurl }}/person/{{ alum.profile }}">
+                            {{ alum.name }}, {{ alum-type.type }} ({{ alum.year }})
+                            {% if alum.extras %} (→ {{ alum.extras }}){% endif %}
                         </a>
                     {% else %}
-                        {% if alumnus.website %}
-                            <a class="alumni" href="{{ alumnus.website }}">
-                                {{ alumnus.name }}, {{ alumnis-type.type }} ({{ alumnus.year }})
-                                {% if alumnus.extras %} (→ {{ alumnus.extras }}){% endif %}
+                        {% if alum.website %}
+                            <a class="alumni" href="{{ alum.website }}">
+                                {{ alum.name }}, {{ alum-type.type }} ({{ alum.year }})
+                                {% if alum.extras %} (→ {{ alum.extras }}){% endif %}
                             </a>
                         {% else %}
                             <div class="alumni">
-                                {{ alumnus.name }}, {{ alumnis-type.type }} ({{ alumnus.year }})
-                                {% if alumnus.extras %} (→ {{ alumnus.extras }}){% endif %}
+                                {{ alum.name }}, {{ alum-type.type }} ({{ alum.year }})
+                                {% if alum.extras %} (→ {{ alum.extras }}){% endif %}
                             </div>
                         {% endif %}
                     {% endif %}

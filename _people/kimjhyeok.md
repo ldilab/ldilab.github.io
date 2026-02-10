@@ -4,7 +4,7 @@ name: Kim Jihyuk
 korean_name: 김지혁
 alt_names:
   - "Jihyeok Kim"
-position: Alumni (Ph.D.)
+position: Ph.D. alum
 department: Department of Computer Science and Engineering
 interests:
  - Information Retrieval, Document/Passage Retrieval, Dense Retrieval

@@ -2,7 +2,7 @@
 short_name: storair
 name: Storaï Romain
 korean_name: 로망
-position: Alumni (M.S.)
+position: M.S. alum
 department: Department of Computer Science and Engineering
 interests:
  - "Adaptive Computation"

@@ -64,7 +64,7 @@ Content:
 short_name: <filename>
 name: Family First
 korean_name: 
-position: <M.S. Student | Integrated M.S./Ph.D. Student | Ph.D. Student | Professor | Alumni (M.S.) | Alumni (Ph.D.)> (Please respect the exact format)
+position: <M.S. Student | Integrated M.S./Ph.D. Student | Ph.D. Student | Professor | M.S. alum | Ph.D. alum> (Please respect the exact format)
 department: Department of Computer Science and Engineering
 interests:
  - "Interest 1"
@@ -94,7 +94,7 @@ To add alumnis, please head to `_data/alumnis.yml` and follow the same format as
       year: 20..
 ```
 *From 2025*, the profile should be filled as every member has a dedicated page. If a profile is given, the link will automatically be made to the profile page. 
-Make sure to change the position of the person to `Alumni (M.S.)` or `Alumni (Ph.D.)` in the profile page!
+Make sure to change the position of the person to `M.S. alum` or `Ph.D. alum` in the profile page!
 
 ## Website Info
 

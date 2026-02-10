@@ -1,5 +1,14 @@
 - type: Ph.D.
   alumni:
+    - name: Dohyeon Lee
+      year: 2026
+      profile: leedh
+    - name: Minsoo Kim
+      year: 2026
+      profile: kimms
+    - name: Jaeseong Lee
+      year: 2026
+      profile: leejs
     - name: Hojae Han
       year: 2025
       profile: hanhj
@@ -42,6 +51,12 @@
       year: 2012
 - type: M.S.
   alumni:
+    - name: Soona Hong
+      year: 2026
+      profile: hongsn
+    - name: Jaeyoung Kim
+      year: 2026
+      profile: kimjyoung
     - name: Romain Storaï
       year: 2025
       profile: storair
