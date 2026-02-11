@@ -19,15 +19,19 @@ sitemap: false
         <h1 class="name">{{ last_name }}, {{ first_name }} ({{ page.korean_name }})</h1>
         <div class="main-info">
             <p>{{ page.position }}</p>
-            <p>{{ page.department }}</p>
+            {% if page.department %}
+                <p>{{ page.department }}</p>
+            {% endif %}
             {% if page.thesis %}
                 {% assign position_lower = page.position | downcase %}
-                {% if position_lower contains "phd" or position_lower contains "ph.d" %}
-                    {% assign label = "Dissertation" %}
-                {% else %}
-                    {% assign label = "Thesis" %}
-                {% endif %}
-                <p><strong>{{ label }}</strong>: {{ page.thesis }}</p>
+                {% unless position_lower contains "postdoctoral" %}
+                    {% if position_lower contains "phd" or position_lower contains "ph.d" %}
+                        {% assign label = "Dissertation" %}
+                    {% else %}
+                        {% assign label = "Thesis" %}
+                    {% endif %}
+                    <p><strong>{{ label }}</strong>: {{ page.thesis }}</p>
+                {% endunless %}
             {% endif %}
         </div>
         <div class="other-info">
@@ -40,6 +44,16 @@ sitemap: false
 
         </div>
 
+        {% if page.appointments %}
+        <div class="other-info">
+            <h2 class="other-category">Academic Appointments</h2> <ul>
+                {% for appointment in page.appointments %}
+                <li>{{ appointment }}</li>
+                {% endfor %}
+            </ul>
+        </div>
+        {% endif %}
+
         <div class="other-info">
             <h2 class="other-category">Education</h2>
             <ul>
@@ -51,7 +65,7 @@ sitemap: false
 
         {% if page.experience %}
         <div class="other-info">
-            <h2 class="other-category">Experience</h2>
+            <h2 class="other-category">Industrial Experience</h2>
             <ul>
                 {% for experience in page.experience %}
                 <li>{{ experience }}</li>
