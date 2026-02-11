@@ -628,7 +628,7 @@ a.person-publication:hover {
 
 .special-link {
     color: var(--text-color);
-    text-decoration: underline;
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Consolas, "Liberation Mono", Menlo, monospace;
 }
 
 /* Middle */
