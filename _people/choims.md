@@ -12,4 +12,5 @@ education:
 mail: chemseok@snu.ac.kr
 photo: nopicture.png
 timestamp: 2026-1-2
+photo: choims.jpeg
 ---
