@@ -1,5 +1,14 @@
 - year: 2026
   papers:
+  - title: 'Dual-Scale World Memory for LLM Agents towards Hard-Exploration Problems'
+    authors: 'Minsoo Kim, Seung-won Hwang'
+    venue: To appear at ICLR 2026
+  - title: 'TAGQuant: Token-Aware Clustering for Group-Wise Quantization'
+    authors: 'Jaeseong Lee, Seung-won Hwang, Aurick Qiao, Zhewei Yao, Yuxiong He'
+    venue: To appear at EACL 2026 (Industry Track)
+  - title: 'D3: Dynamic Docid Decoding for Multi-Intent Generative Retrieval'
+    authors: '{Jaeyoung Kim, Dohyeon Lee, Soona Hong}, Seung-won Hwang'
+    venue: To appear at EACL 2026 (Industry Track)
   - title: 'On Listwise Reranking for Corpus Feedback'
     authors: 'Soyoung Yoon, Jongho Kim, Daeyong Kwon, Avishek Anand, Seung-won Hwang'
     venue: WSDM 2026 (short)
