@@ -15,8 +15,8 @@
   - title: 'DuET: Dual Execution for Test Output Prediction with Generated Code and Pseudocode'
     authors: 'Hojae Han, Jaejin Kim, Seung-won Hwang, Yu Jin Kim, Moontae Lee'
     venue: To appear at Findings of ACL 2026
-  - title: 'R3-SQL: Ranking and Resampling as Reward for Text-to-SQL'
-    authors: 'Hojae Han, Yeonseok Jeong, Seung-won Hwang, Zhewei Yao, Yuxiong He'
+  - title: 'R3-SQL: Ranking Reward and Resampling for Text-to-SQL'
+    authors: '{Hojae Han, Yeonseok Jeong}, Seung-won Hwang, Zhewei Yao, Yuxiong He'
     venue: To appear at Findings of ACL 2026
   - title: 'Relevance to Utility: Process-Supervised Rewrite for RAG'
     authors: '{Jaeyoung Kim, Jongho Kim}, Seung-won Hwang, Seoho Song, Young-In Song'
@@ -25,7 +25,7 @@
     authors: 'Youngwon Lee, Seung-won Hwang, Ruofan Wu, Feng Yan, Danmei Xu, Moutasem Akkad, Zhewei Yao, Yuxiong He'
     venue: To appear at Findings of ACL 2026
   - title: 'Benchmarking Testing in Automated Theorem Proving'
-    authors: 'Jongyoon Kim, Hojae Han, Seung-won Hwang'
+    authors: '{Jongyoon Kim, Hojae Han}, Seung-won Hwang'
     venue: To appear at ACL 2026 (Industry Track)
   - title: 'Dual-Scale World Memory for LLM Agents towards Hard-Exploration Problems'
     authors: 'Minsoo Kim, Seung-won Hwang'
