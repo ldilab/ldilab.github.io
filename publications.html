@@ -13,10 +13,11 @@ sitemap: true
             <div class="publications-list">
                 {% for publication in publications-year.papers %}
                 <div class="publication">
-                    {% if publication.url %}
-                    <a href="{{ publication.url }}" target="_blank" class="publication-title">{{ publication.title }}</a>
+                    {% assign pub_url = publication.url | strip %}
+                    {% if pub_url and pub_url != "" and pub_url != "#" %}
+                    <a href="{{ pub_url }}" target="_blank" class="publication-title">{{ publication.title }}</a>
                     {% else %}
-                    <div class="publication-title">{{ publication.title }}</div>
+                    <div class="publication-title no-link">{{ publication.title }}</div>
                     {% endif %}
                     <div class="publication-authors">
                         {% assign authorslist = publication.authors | split: ", " %}

@@ -377,7 +377,7 @@ footer {
     margin-bottom: 18px;
 }
 
-.publication-title {
+a.publication-title {
     font-size: 18px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -386,8 +386,15 @@ footer {
     transition: text-decoration 0.3s ease-in-out;
 }
 
-.publication-title:hover {
+a.publication-title:hover {
     text-decoration-color: var(--text-color);
+}
+
+.publication-title.no-link {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: var(--text-color);
 }
 
 .publication-authors {
