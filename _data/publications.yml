@@ -2,44 +2,56 @@
   papers:
   - title: 'GRAD: Generalizing RAG Adaptation with Decoding'
     authors: 'Youngwon Lee, Seung-won Hwang, Zhewei Yao, Yuxiong He'
-    venue: To appear at ACL 2026
+    venue: ACL 2026
+    url: https://aclanthology.org/2026.acl-long.2099.pdf
   - title: 'Adaptive Retrieval for Reasoning'
     authors: '{Jongho Kim, Jaeyoung Kim}, Jihyuk Kim, Yujin Kim, Seung-won Hwang, Moontae Lee'
-    venue: To appear at ACL 2026
+    venue: ACL 2026
+    url: https://aclanthology.org/2026.acl-long.1734.pdf
   - title: 'Beyond Markovian Forgetfulness: Episodic Memory for Reasoning-Intensive Retrieval'
     authors: 'Dohyeon Lee, Yeonseok Jeong, Seung-won Hwang'
-    venue: To appear at ACL 2026
+    venue: ACL 2026
+    url: https://aclanthology.org/2026.acl-long.1728.pdf
   - title: 'UnIte: Uncertainty-based Iterative Document Sampling for Domain Adaptation in Information Retrieval'
     authors: 'Jongyoon Kim, Minseong Hwang, Seung-won Hwang'
-    venue: To appear at Findings of ACL 2026
+    venue: Findings of ACL 2026
+    url: https://aclanthology.org/2026.findings-acl.1614.pdf
   - title: 'DuET: Dual Execution for Test Output Prediction with Generated Code and Pseudocode'
     authors: 'Hojae Han, Jaejin Kim, Seung-won Hwang, Yu Jin Kim, Moontae Lee'
-    venue: To appear at Findings of ACL 2026
+    venue: Findings of ACL 2026
+    url: https://aclanthology.org/2026.findings-acl.2144.pdf
   - title: 'R3-SQL: Ranking Reward and Resampling for Text-to-SQL'
     authors: '{Hojae Han, Yeonseok Jeong}, Seung-won Hwang, Zhewei Yao, Yuxiong He'
-    venue: To appear at Findings of ACL 2026
+    venue: Findings of ACL 2026
+    url: https://aclanthology.org/2026.findings-acl.2146.pdf
   - title: 'Relevance to Utility: Process-Supervised Rewrite for RAG'
     authors: '{Jaeyoung Kim, Jongho Kim}, Seung-won Hwang, Seoho Song, Young-In Song'
-    venue: To appear at Findings of ACL 2026
+    venue: Findings of ACL 2026
+    url: https://aclanthology.org/2026.findings-acl.1513.pdf
   - title: 'Agentic Verification for Ambiguous Query Disambiguation'
     authors: 'Youngwon Lee, Seung-won Hwang, Ruofan Wu, Feng Yan, Danmei Xu, Moutasem Akkad, Zhewei Yao, Yuxiong He'
-    venue: To appear at Findings of ACL 2026
+    venue: Findings of ACL 2026
+    url: https://aclanthology.org/2026.findings-acl.1932.pdf
   - title: 'Benchmarking Testing in Automated Theorem Proving'
     authors: '{Jongyoon Kim, Hojae Han}, Seung-won Hwang'
-    venue: To appear at ACL 2026 (Industry Track)
+    venue: ACL 2026 (Industry Track)
+    url: https://aclanthology.org/2026.acl-industry.150.pdf
   - title: 'Dual-Scale World Memory for LLM Agents towards Hard-Exploration Problems'
     authors: 'Minsoo Kim, Seung-won Hwang'
     venue: ICLR 2026
+    url: https://openreview.net/forum?id=bH5uHIVtTe
   - title: 'TAGQuant: Token-Aware Clustering for Group-Wise Quantization'
     authors: 'Jaeseong Lee, Seung-won Hwang, Aurick Qiao, Zhewei Yao, Yuxiong He'
     venue: EACL 2026 (Industry Track)
+    url: https://aclanthology.org/2026.eacl-industry.18.pdf
   - title: 'D3: Dynamic Docid Decoding for Multi-Intent Generative Retrieval'
     authors: '{Jaeyoung Kim, Dohyeon Lee, Soona Hong}, Seung-won Hwang'
     venue: EACL 2026 (Industry Track)
+    url: https://aclanthology.org/2026.eacl-industry.58.pdf
   - title: 'On Listwise Reranking for Corpus Feedback'
     authors: 'Soyoung Yoon, Jongho Kim, Daeyong Kwon, Avishek Anand, Seung-won Hwang'
     venue: WSDM 2026 (short)
-    url: https://arxiv.org/pdf/2510.00887
+    url: https://doi.org/10.1145/3773966.3779404
 - year: 2025
   papers:
   - title: 'AcuRank: Uncertainty-Aware Adaptive Computation for Listwise Reranking'
