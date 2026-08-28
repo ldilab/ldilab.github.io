@@ -1,5 +1,32 @@
 - year: 2026
   papers:
+  - title: 'TaskPress: Query-Agnostic KV Cache Compression via Task-Guided Pruning'
+    authors: 'Wonpyo Park, Seung-won Hwang'
+    venue: To appear at EMNLP 2026
+  - title: 'SAFE: An LLM-as-Verifier Framework for Evidence-Grounded Multi-Hop Reasoning'
+    authors: 'Daeyong Kwon, Soyoung Yoon, Seung-won Hwang'
+    venue: To appear at EMNLP 2026
+  - title: 'ANI: Adaptive Numerical Injection for Unifying Semantic and Arithmetic Representations in Numerical Reasoning'
+    authors: 'Jinsung Jeon, Seung-won Hwang'
+    venue: To appear at EMNLP 2026
+  - title: 'GR²: Mitigating Granularity Collapse via Adaptive Query Routing in Generative Retrieval'
+    authors: 'Soona Hong, Dohyeon Lee, Jaeyoung Kim, Seung-won Hwang'
+    venue: To appear at EMNLP 2026
+  - title: 'LoRA-RG: Residual Gradient-Guided Rank Initialization and Expansion'
+    authors: 'Dayoung Kwon, Jaeseong Lee, Seung-won Hwang'
+    venue: To appear at EMNLP 2026
+  - title: 'SHADOWBENCH: Toward Reliable Automatic Evaluation of Semantic Alignment in Autoformalization'
+    authors: '{Hojae Han, Jongyoon Kim, Sanghyeok Park}, Dongwook Cheon, Yeachan Park, Myeong Jae Jeon, SunJong Choe, Soonho Kong, Wonseok Hur, Seung-won Hwang, Donghoon Hyeon'
+    venue: To appear at EMNLP 2026
+  - title: 'Localizing Cross-Lingual Generalization in Parameter Space'
+    authors: 'Yeoreum Lee, Jaeseong Lee, Seong-won Hwang'
+    venue: To appear at EMNLP 2026
+  - title: 'Replacing Training with Memory: Listwise Selection for Text-to-SQL'
+    authors: 'Yeonseok Jeong, Soyoung Yoon, Seongjun Lee, Seong-won Hwang'
+    venue: To appear at Findings of EMNLP 2026
+  - title: 'Inference-Free Multimodal Learned Sparse Retrieval for Production-Scale Visual Document Search'
+    authors: 'Gyu-Hwung Cho, Youngjune Lee, Kiyoon Jeong, Siyoung Lee, Sanggyu Han, Hervé Dejean, Stéphane Clinchant, Seung-won Hwang'
+    venue: To appear at CIKM 2026
   - title: 'GRAD: Generalizing RAG Adaptation with Decoding'
     authors: 'Youngwon Lee, Seung-won Hwang, Zhewei Yao, Yuxiong He'
     venue: ACL 2026
