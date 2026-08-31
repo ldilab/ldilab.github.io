@@ -1,6 +1,6 @@
 ---
 short_name: chogh
-name: Gyu-Hwung Cho
+name: Cho Gyu-Hwung
 korean_name: 조규형
 position: Ph.D. Student
 department: Department of Computer Science and Engineering

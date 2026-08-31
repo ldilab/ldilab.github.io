@@ -1,6 +1,6 @@
 ---
 short_name: jeonjs
-name: Jinsung Jeon
+name: Jeon Jinsung
 korean_name: 전진성
 position: Postdoctoral alum
 interests:
