@@ -143,7 +143,7 @@
     authors: 'Jaeseong Lee, Seung-won Hwang, Hojin Lee, Yunju Bak, Changmin Lee'
     venue: NAACL 2025
     url: https://aclanthology.org/2025.naacl-short.19.pdf
-  - title: 'tRAG: Term-level Retrieval-Augmented Generation for Zero-shot Retrieval'
+  - title: 'tRAG: Term-level Retrieval-Augmented Generation for Domain-Adaptive Retrieval'
     authors: 'Dohyeon Lee, Jongyoon Kim, Jihyuk Kim, Seung-won Hwang, Joonsuk Park'
     venue: NAACL 2025
     url: https://aclanthology.org/2025.naacl-long.334.pdf
