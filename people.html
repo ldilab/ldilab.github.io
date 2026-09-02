@@ -52,26 +52,37 @@ sitemap: true
         </div>
         {% endfor %}
 
-        
+        <div class="people-category">Former Members</div>
+
         {% for alum-type in site.data.alumni %}
         <div class="people-content">
-            <div class="people-category-alumni">{{ alum-type.type }} Alumni</div>
+            <div class="people-category-alumni">
+                {% if alum-type.type == 'Postdoctoral' %}
+                    Former Postdoctoral Researchers
+                {% else %}
+                    {{ alum-type.type }} Alumni
+                {% endif %}
+            </div>
             <div class="people-list">
+                {% assign alumni-label = alum-type.type %}
+                {% if alum-type.type == 'Postdoctoral' %}
+                    {% assign alumni-label = 'Ph.D.' %}
+                {% endif %}
                 {% for alum in alum-type.alumni %}
                     {% if alum.profile %}
                         <a class="alumni" href="{{ site.url }}{{ site.baseurl }}/person/{{ alum.profile }}">
-                            {{ alum.name }}, {{ alum-type.type }} ({{ alum.year }})
+                            {{ alum.name }}, {{ alumni-label }} ({{ alum.year }})
                             {% if alum.extras %} (→ {{ alum.extras }}){% endif %}
                         </a>
                     {% else %}
                         {% if alum.website %}
                             <a class="alumni" href="{{ alum.website }}">
-                                {{ alum.name }}, {{ alum-type.type }} ({{ alum.year }})
+                                {{ alum.name }}, {{ alumni-label }} ({{ alum.year }})
                                 {% if alum.extras %} (→ {{ alum.extras }}){% endif %}
                             </a>
                         {% else %}
                             <div class="alumni">
-                                {{ alum.name }}, {{ alum-type.type }} ({{ alum.year }})
+                                {{ alum.name }}, {{ alumni-label }} ({{ alum.year }})
                                 {% if alum.extras %} (→ {{ alum.extras }}){% endif %}
                             </div>
                         {% endif %}
