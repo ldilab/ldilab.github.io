@@ -4,9 +4,10 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ site.title }}</title>
-  <link rel="icon" src="{{ site.url }}{{ site.baseurl }}/favicon.ico" sizes="any">
-  <link rel="icon" src="{{ site.url }}{{ site.baseurl }}/favicon.svg" type="image/svg+xml">
+  {% if page.collection == "people" %}{% assign page_title = page.name %}{% else %}{% assign page_title = page.title %}{% endif %}
+  <title>{% if page_title %}{{ page_title }} | {% endif %}{{ site.title }}</title>
+  <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/favicon.ico" sizes="any">
+  <link rel="icon" href="{{ site.url }}{{ site.baseurl }}/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/main.css">
   <link rel="stylesheet" href="{{ site.url }}{{ site.baseurl }}/assets/css/font-awesome.min.css">
   {% seo title=false %}
